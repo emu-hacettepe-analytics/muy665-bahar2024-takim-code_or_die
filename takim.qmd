@@ -6,10 +6,16 @@ Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfaları
 
 # Takım Üyeleri
 
-1.  [Edin_Džeko](/takim/edindzeko.qmd)
+1.  [Safinaz Öksüz](/takim/safinazoksuz.qmd)
 
-2.  [Dušan Tadić](/takim/dusantadic.qmd)
+2.  [Betül Teke Sarıyer](/takim/betultekesariyer.qmd)
 
-3.  [Frederico Rodrigues de Paula Santos](/takim/fred.qmd)
+3.  [Hazal Akbulut Bıyık](/takim/hazalakbulutbiyik.qmd)
 
-4.  [Sebastian Szymański](/takim/szymanski.qmd)
+4.  [Oğuzhan Sarıyer](/takim/oguzhansariyer.qmd)
+
+5.  [Gözde Tekin](/takim/gozdetekin.qmd)
+
+6.  [Görkem Yalın](/takim/gorkemyalin.qmd)
+
+7.  [sait Fidan](/takim/saitfidan.qmd)

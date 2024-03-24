@@ -1,5 +1,5 @@
 ---
-title: "Takım: XXX"
+title: "Takım: Code or Die"
 sidebar: false 
 ---
 
@@ -7,31 +7,34 @@ MUY660-İş Analitiği dersi takım sayfamıza hoş geldiniz.
 
 Bu analitik çalışmalarımızı paylaşıyoruz.
 
-Lütfen faaliyetlerimizi görmek için için bizi takipte kalın.
-
-
+Lütfen faaliyetlerimizi görmek için bizi takipte kalın.
 
 ## Takım Üyeleri
 
-1.  [Edin_Džeko](/takim/edindzeko.qmd)
+1.  [Safinaz Öksüz](/takim/safinazoksuz.qmd)
 
-2.  [Dušan Tadić](/takim/dusantadic.qmd)
+2.  [Betül Teke Sarıyer](/takim/betultekesariyer.qmd)
 
-3.  [Frederico Rodrigues de Paula Santos](/takim/fred.qmd)
+3.  [Hazal Akbulut Bıyık](/takim/hazalakbulutbiyik.qmd)
 
-4.  [Sebastian Szymański](/takim/szymanski.qmd)
+4.  [Oğuzhan Sarıyer](/takim/oguzhansariyer.qmd)
 
+5.  [Gözde Tekin](/takim/gozdetekin.qmd)
+
+6.  [Görkem Yalın](/takim/gorkemyalin.qmd)
+
+7.  [Sait Fidan](/takim/saitfidan.qmd)
 
 ## Proje Adı
+
 MUY660-İş Analitiği iyileştirme çalışmaları (örnek)
 
 ## Proje Konusu
-Örnek:
-Bu projede MUY660-İş Analitiği ders içeriğinin analitik yaklaşımlarla iyileştirilmesini hedefledik. Bu doğrultuda tüm üniversitelerdeki benzer derslerin verisini toplayarak bir veri seti oluşturduk Analiz için ........ yöntemleri kullanarak, ....... çalışmaları yaptık Sonuç olarak, MUY660-İş Analitiği dersinin dünyadaki tüm derslerden daha iyi olduğunu ve bu dersi aldığımız için çok mutlu olduğumuzu tespit ettik.
 
+Örnek: Bu projede MUY660-İş Analitiği ders içeriğinin analitik yaklaşımlarla iyileştirilmesini hedefledik. Bu doğrultuda tüm üniversitelerdeki benzer derslerin verisini toplayarak bir veri seti oluşturduk Analiz için ........ yöntemleri kullanarak, ....... çalışmaları yaptık Sonuç olarak, MUY660-İş Analitiği dersinin dünyadaki tüm derslerden daha iyi olduğunu ve bu dersi aldığımız için çok mutlu olduğumuzu tespit ettik.
 
 ## Veri Seti Hakkında Özet Bilgi
 
-
 ## Sonuçlar
+
 Burada key takeways verilmelidir. En az 3 en fazla 5 madde ile çarpıcı sonuçlar sunulmalıdır.
