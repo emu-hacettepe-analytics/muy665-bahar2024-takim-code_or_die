@@ -1,13 +1,13 @@
 ---
-title: "Hazal Akbulut Sarıyer"
+title: "Hazal Akbulut Bıyık"
 ---
 
-![](/assets/images/vesikalik.jpeg){fig-align="center"}
+![](/assets/images/hazalakbulutbiyik.jpg){fig-align="center"}
 
 # Eğitim
 
--   Lisans, ................................., .................................... Üniversitesi, Türkiye, 20xx - 20xx.
--   Yüksek Lisans, Endüstri Mühendisliği, Hacettepe Üniversitesi, Türkiye, 20xx - devam ediyor.
+-   Lisans, Çevre Mühendisliği, Orta Doğu Teknik Üniversitesi, Türkiye, 2014 - 2020.
+-   Yüksek Lisans, Mühendislik Yönetimi, Hacettepe Üniversitesi, Türkiye, 2024 - devam ediyor.
 
 # İş Deneyimi
 
