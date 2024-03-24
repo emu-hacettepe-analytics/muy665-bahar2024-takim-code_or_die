@@ -2,28 +2,30 @@
 title: "Betül Teke Sarıyer"
 ---
 
-![](/assets/images/vesikalik.jpeg){fig-align="center"}
+![](/assets/images/betulteke.jpeg){fig-align="center"}
 
 # Eğitim
 
 -   Yüksek Lisans, Endüstri Mühendisliği, Hacettepe Üniversitesi, Türkiye, 2024 - devam ediyor
--   Lisans, Hacettepe Üniversitesi, İşletme, Türkiye, 2014 - 2018
+-   Lisans, İşletme, Hacettepe Üniversitesi, Türkiye, 2014 - 2018
 
 # İş Deneyimi
 
 ## İşler
 
-1.  Türkiye Teknoloji Geliştirme Vakfı, Girişimcilik ve İnovasyon Programları Uzmanı, 2022 - devam 
+1.  Türkiye Teknoloji Geliştirme Vakfı, Girişimcilik ve İnovasyon Programları Uzmanı, 06/2022 - devam 
 
-2.  ANDAR Elektromekanik Sistemler, CEO Office Uzmanı, 2021-2022
+2.  ANDAR Elektromekanik Sistemler, CEO Office Uzmanı, 10/2021 - 06/2022
 
-3. ODTÜ TEKNOKENT Yönetim A.Ş., Uzman Yardımcısı, 2018-2021
+3.  SDG Impact Acccelerator, Proje Asistanı, 02/2021 - 10/2021 
+
+4.  ODTÜ TEKNOKENT Yönetim A.Ş., Uzman Yardımcısı, 06/2018 - 12/2020
 
 ## Stajlar
 
-1.  ODTÜ TEKNOKENT Yönetim A.Ş., 01/2018 - 06/2018
+1.  ODTÜ TEKNOKENT Yönetim A.Ş., Uzun Dönem Staj, 01/2018 - 06/2018
 
-2.  Eczacıbaşı Yapı Gereçleri, 07/2016 - 08/2016
+2.  Eczacıbaşı Yapı Gereçleri, Yaz Stajı, 07/2016 - 08/2016
 
 # Projeler
 
@@ -35,8 +37,8 @@ title: "Betül Teke Sarıyer"
 
 # Yetkinlikler
 
-R, Quarto, Git, Python
+R, Quarto, Git, MS Office, Microsoft Visual Basic, Proje Yönetimi, İş Analitiği, Strateji Geliştirme
 
 # Hobiler
 
-Basketbol, Gitar, Bateri
+Basketbol, Gitar, Bateri, Darbuka
