@@ -2,7 +2,7 @@
 title: "Hazal Akbulut Bıyık"
 ---
 
-![](/assets/images/hazalakbulutbiyik.jpg){fig-align="center"}
+![](images/hazalakbulutbiyik.jpg){fig-align="center"}
 
 # Eğitim
 
