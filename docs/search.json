@@ -240,7 +240,7 @@
     "href": "takim.html",
     "title": "Takım Üyeleri",
     "section": "",
-    "text": "Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfalarına gitmek için sol menüyü veya aşağıdaki linkleri kullanabilirsiniz.\n\nTakım Üyeleri\n\nSafinaz Öksüz\nBetül Teke Sarıyer\nHazal Akbulut Bıyık\nOğuzhan Sarıyer\nGözde Tekin\nGörkem Yalın\nsait Fidan\n\n\n\n\n\n Back to top"
+    "text": "Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfalarına gitmek için sol menüyü veya aşağıdaki linkleri kullanabilirsiniz.\n\nTakım Üyeleri\n\nSafinaz Öksüz\nBetül Teke Sarıyer\nHazal Akbulut Bıyık\nOğuzhan Sarıyer\nGözde Tekin\nGörkem Yalın\nSait Fidan\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "proje.html",
@@ -568,5 +568,89 @@
     "title": "Safinaz Öksüz",
     "section": "",
     "text": "{fig-align=“center” “width=280”}"
+  },
+  {
+    "objectID": "takim/hazalakbulutbiyik.html#işler",
+    "href": "takim/hazalakbulutbiyik.html#işler",
+    "title": "Hazal Akbulut Bıyık",
+    "section": "İşler",
+    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/hazalakbulutbiyik.html#stajlar",
+    "href": "takim/hazalakbulutbiyik.html#stajlar",
+    "title": "Hazal Akbulut Bıyık",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/betultekesariyer.html#işler",
+    "href": "takim/betultekesariyer.html#işler",
+    "title": "Betül Teke Sarıyer",
+    "section": "İşler",
+    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/betultekesariyer.html#stajlar",
+    "href": "takim/betultekesariyer.html#stajlar",
+    "title": "Betül Teke Sarıyer",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/saitfidan.html#işler",
+    "href": "takim/saitfidan.html#işler",
+    "title": "Sait Fidan",
+    "section": "İşler",
+    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/saitfidan.html#stajlar",
+    "href": "takim/saitfidan.html#stajlar",
+    "title": "Sait Fidan",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/oguzhansariyer.html#işler",
+    "href": "takim/oguzhansariyer.html#işler",
+    "title": "Oğuzhan Sarıyer",
+    "section": "İşler",
+    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/oguzhansariyer.html#stajlar",
+    "href": "takim/oguzhansariyer.html#stajlar",
+    "title": "Oğuzhan Sarıyer",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/gozdetekin.html#işler",
+    "href": "takim/gozdetekin.html#işler",
+    "title": "Gözde Tekin",
+    "section": "İşler",
+    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/gozdetekin.html#stajlar",
+    "href": "takim/gozdetekin.html#stajlar",
+    "title": "Gözde Tekin",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/gorkemyalin.html#işler",
+    "href": "takim/gorkemyalin.html#işler",
+    "title": "Görkem Yalın",
+    "section": "İşler",
+    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy"
+  },
+  {
+    "objectID": "takim/gorkemyalin.html#stajlar",
+    "href": "takim/gorkemyalin.html#stajlar",
+    "title": "Görkem Yalın",
+    "section": "Stajlar",
+    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy"
   }
 ]

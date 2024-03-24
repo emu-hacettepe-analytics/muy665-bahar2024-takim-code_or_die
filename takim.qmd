@@ -18,4 +18,4 @@ Takım Üyelerimizin detaylı özgemişlerinin yer aldığı kişisel sayfaları
 
 6.  [Görkem Yalın](/takim/gorkemyalin.qmd)
 
-7.  [sait Fidan](/takim/saitfidan.qmd)
+7.  [Sait Fidan](/takim/saitfidan.qmd)
