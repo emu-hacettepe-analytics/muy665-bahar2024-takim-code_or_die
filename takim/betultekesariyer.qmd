@@ -6,22 +6,24 @@ title: "Betül Teke Sarıyer"
 
 # Eğitim
 
--   Lisans, ................................., .................................... Üniversitesi, Türkiye, 20xx - 20xx.
--   Yüksek Lisans, Endüstri Mühendisliği, Hacettepe Üniversitesi, Türkiye, 20xx - devam ediyor.
+-   Lisans, Hacettepe Üniversitesi, İşletme, Türkiye, 2014 - 2018
+-   Yüksek Lisans, Endüstri Mühendisliği, Hacettepe Üniversitesi, Türkiye, 2024 - devam ediyor.
 
 # İş Deneyimi
 
 ## İşler
 
-1.  Firma xxx, pozisyon xx, yıl xxx
+1.  Türkiye Teknoloji Geliştirme Vakfı, Girişimcilik ve İnovasyon Programları Uzmanı, 2022 - devam 
 
-2.  Firma yyy, pozisyon yyy, yıl yyy
+2.  ANDAR Elektromekanik Sistemler, CEO Office Uzmanı, 2021-2022
+
+3. ODTÜ TEKNOKENT Yönetim A.Ş., Uzman Yardımcısı, 2018-2021
 
 ## Stajlar
 
-1.  Firma aaa, pozisyon xx, yıl xxx
+1.  ODTÜ TEKNOKENT Yönetim A.Ş., 01/2018 - 06/2018
 
-2.  Firma bbb, pozisyon yyy, yıl yyy
+2.  Eczacıbaşı Yapı Gereçleri, 07/2016 - 08/2016
 
 # Projeler
 
