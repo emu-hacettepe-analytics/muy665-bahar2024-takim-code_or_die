@@ -5,6 +5,6 @@ title: "Çalışma 1"
 \
 Bu çalışmada aşağıdaki videonun özeti hazırlanmıştır.
 
-[Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir](https://www.youtube.com/watch?v=tV_0pHSdLAM)
+[Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir](https://www.youtube.com/watch?v=1Mvkn71dhaA)
 
 Bu videoda ....
