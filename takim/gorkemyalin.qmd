@@ -2,7 +2,8 @@
 title: "Görkem Yalın"
 ---
 
-![](/assets/images/vesikalik.jpeg){fig-align="center"}
+![](/assets/images/gorkemyalin.JPG){fig-align="center" width="300"}
+
 
 # Eğitim
 
