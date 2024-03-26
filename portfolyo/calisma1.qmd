@@ -17,12 +17,55 @@ Bu videoda ....
 
 Bu çalışmada **mtcars** veri seti incelenmiştir. Özel Fonksiyonlar ve Döngüler ile istatistiksel özetleri aşağıdaki gibidir.
 
+## 1. mtcars veri seti tanımlandı
+
 ```{r}
 library(dslabs) 
-data("mtcars") 
+data(mtcars) 
 print(mtcars)
 
 ```
+
+## 2. custom_summary fuction tanımlama
+
+```{r}
+custom_summary <- function(vec) {
+  summary_list <- list(
+    Mean = mean(vec),
+    Median = median(vec),
+    Standard_Deviation = sd(vec),
+    Minimum = min(vec),
+    Maximum = max(vec)
+  )
+  return(summary_list)
+}
+print(custom_summary)
+```
+##3.Veri setinin sayısal sütunlarını içeren bir vektör oluşturalım
+
+```{r}
+numeric_columns <- sapply(mtcars, is.numeric)
+print(numeric_columns)
+
+```
+##4. Sayısal sütunlar üzerinde döngü ile custom_summary fonksiyonunu uygulayalım
+
+```{r}
+for (col_name in names(mtcars)[numeric_columns]) {
+  cat("Column:", col_name, "\n")
+  print(custom_summary(mtcars[[col_name]]))
+}
+
+```
+##5.apply ile Alternatif Bir Yaklaşımı
+
+```{r}
+result <- apply(mtcars, 2, custom_summary)
+print(result)
+
+```
+
+
 
 ## c. "na_example" Veriseti İnceleme Çalışması
 
