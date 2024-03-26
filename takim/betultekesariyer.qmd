@@ -2,7 +2,7 @@
 title: "Betül Teke Sarıyer"
 ---
 
-![](/assets/images/betultekesariyer.jpg){fig-align="center"}
+![](/assets/images/betultekesariyer.jpg){fig-align="center" width="300"}
 
 # Eğitim
 
