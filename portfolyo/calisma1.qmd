@@ -4,7 +4,6 @@ title: "Çalışma 1"
 
 MUY655 İş Analitiği dersi Çalışma 1 içeriği aşağıda paylaşılmıştır.
 
-
 ## a.
 
 \
@@ -29,7 +28,6 @@ print(mtcars)
 ```
 
 ## 2.
-
 
 ## c.
 
@@ -72,5 +70,3 @@ print(paste("Güncellenmiş veri setindeki toplam NA değeri sayısı:", new_tot
 count_665 <- sum(updated_data == 665)
 print(paste("Güncellenmiş veri setinde 665 numarasının sayısı:", count_665))
 ```
-
-
