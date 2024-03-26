@@ -306,7 +306,7 @@
     "href": "portfolyo/calisma2.html",
     "title": "Çalışma 2",
     "section": "",
-    "text": "(Aşağıdakiler örnek olarak verilmiştir.)\nBu çalışmada 3 görevimiz var. Bu görevler….. Bunlara sırayla aşağıda cevap arıyoruz."
+    "text": "Bu çalışmada mtcars veri seti incelenmiştir. Özel Fonksiyonlar ve Döngüler ile istatistiksel özetleri aşağıdaki gibidir."
   },
   {
     "objectID": "portfolyo/calisma1.html",
@@ -636,9 +636,9 @@
   {
     "objectID": "portfolyo/calisma3.html",
     "href": "portfolyo/calisma3.html",
-    "title": "Code or Die Takımı Analitik Labı",
+    "title": "Çalışma 3",
     "section": "",
-    "text": "Back to top"
+    "text": "Bu çalışmada “na_example” veri seti üzerinde çalışılarak aşağıdaki işlemler yapılmıştır.\n1.\n\n\n\n Back to top"
   },
   {
     "objectID": "docs/project.html",
@@ -702,5 +702,19 @@
     "title": "Project X",
     "section": "3.4 Results",
     "text": "3.4 Results\nxxxxxx"
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#section",
+    "href": "portfolyo/calisma2.html#section",
+    "title": "Çalışma 2",
+    "section": "1.",
+    "text": "1.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#section-1",
+    "href": "portfolyo/calisma2.html#section-1",
+    "title": "Çalışma 2",
+    "section": "2.",
+    "text": "2."
   }
 ]

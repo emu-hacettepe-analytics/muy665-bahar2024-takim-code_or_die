@@ -2,15 +2,12 @@
 title: "Çalışma 2"
 ---
 
-\
-(Aşağıdakiler örnek olarak verilmiştir.)
+Bu çalışmada **mtcars** veri seti incelenmiştir. Özel Fonksiyonlar ve Döngüler ile istatistiksel özetleri aşağıdaki gibidir.
 
-Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
-
-## (a)
+## 1.
 
 ```{r}
 1 + 1
 ```
 
-## (b)
+## 2.

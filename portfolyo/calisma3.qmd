@@ -1,0 +1,7 @@
+---
+title: "Çalışma 3"
+---
+
+Bu çalışmada "na_example" veri seti üzerinde çalışılarak aşağıdaki işlemler yapılmıştır.
+
+1\.
