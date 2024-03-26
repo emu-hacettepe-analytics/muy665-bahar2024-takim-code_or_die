@@ -20,7 +20,6 @@ total_na <- sum(is.na(na_example))
 print(paste("Toplam NA değeri sayısı:", total_na))
 ```
 
-
 ## 3.N/A değerlerinin 665 ile değiştirilmesi
 
 ```{r}
@@ -29,13 +28,13 @@ updated_data[is.na(updated_data)] <- 665
 print(updated_data)
 ```
 
-
 ## 4.Güncellenmiş veri setindeki toplam NA değeri sayısı
 
 ```{r}
 new_total_na <- sum(is.na(updated_data))
 print(paste("Güncellenmiş veri setindeki toplam NA değeri sayısı:", new_total_na))
 ```
+
 ## 5.Güncellenmiş veri setindeki toplam 655 değeri sayısı
 
 ```{r}
