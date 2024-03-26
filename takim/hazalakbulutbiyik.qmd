@@ -15,9 +15,15 @@ title: "Hazal Akbulut Bıyık"
 
 1.  Türkiye Teknoloji Geliştirme Vakfı, Program Uzmanı, Haziran 2023 - Devam Ediyor
 
+<<<<<<< Updated upstream
 2.  GÜRİŞ Holding, Çevre Mühendisi, Kasım 2021-Haziran 2023
 
 2.  ENCON Mühendislik A.Ş., Çevre Mühendisi, Aralık 2020-Ekim 2021
+=======
+2.  GÜRİŞ Holding, Çevre Mühendisi, Kasım 2021- Haziran 2023
+
+3.  ENCON Çevre Danışmanlık Ltd. Şti., Çevre Mühendisi, Aralık 2020 - Ekim 2021
+>>>>>>> Stashed changes
 
 ## Stajlar
 
@@ -25,16 +31,30 @@ title: "Hazal Akbulut Bıyık"
 
 2.  Çınar Mühendislik A.Ş., Çevre Mühendisi, 2019
 
+<<<<<<< Updated upstream
 3.  ESART A.Ş., Çevre Mühendisi, 2018
+=======
+3.  ESART A.Ş., Çevre Mühendisi, 1018
+>>>>>>> Stashed changes
 
 # Projeler
 
 1.  Yapı ve İnşaat Sektörünün Karbonsuzlaştırılmasında Sürdürülebilir Çimento Üretimi
+<<<<<<< Updated upstream
+=======
+
+2.  Gıda Değer Zincirinin Karbonsuzlaştırılmasında Alternatif Protein Teknolojileri
+
+3.  Sürdürülebilirler Şehirler Projesi - Grup 3 Ordu
+
+4.  Ömerli İçme Suyu Arıtma Tesisleri'nde Koku ve Tat Probleminin Giderilmesi
+>>>>>>> Stashed changes
 
 2.  Gıda Değer Zincirinin Karbonsuzlaştırılmasında Alternatif Protein Teknolojileri
 
 3.  Ömerli İçme Suyu Arıtma Tesisleri'nde Koku ve Tat Probleminin Giderilmesi
 
+<<<<<<< Updated upstream
 
 # Yetkinlikler
 
@@ -43,3 +63,14 @@ R, Quarto, Git, Autocad, MS Office
 # Hobiler
 
 Salsa, Bachata, Fotoğrafçılık
+=======
+
+
+# Yetkinlikler
+
+R, Quarto, AutoCad MS Office
+
+# Hobiler
+
+Salsa, Batchata
+>>>>>>> Stashed changes
