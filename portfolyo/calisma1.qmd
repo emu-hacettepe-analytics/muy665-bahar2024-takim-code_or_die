@@ -2,7 +2,7 @@
 title: "Çalışma 1"
 ---
 
-MUY655 İş Analitiği dersi Çalışma 1 içeriği aşağıda paylaşılmıştır.
+MUY655 İş Analitiği dersi Çalışma 1 içeriği aşağıda paylaşılmıştır. Örnek
 
 ## a. "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler" Videosu Özet Çalışması
 
