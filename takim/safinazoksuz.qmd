@@ -2,7 +2,7 @@
 title: "Safinaz Öksüz"
 ---
 
-![](images/safinazoksuz.jpg){fig-align="center" width="300"}
+![](images/safinazoksuz.jpg){fig-align="center" width="651"}
 
 # Eğitim
 
