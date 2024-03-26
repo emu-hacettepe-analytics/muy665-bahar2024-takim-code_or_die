@@ -313,7 +313,7 @@
     "href": "portfolyo/calisma1.html",
     "title": "Çalışma 1",
     "section": "",
-    "text": "MUY655 İş Analitiği dersi Çalışma 1 içeriği aşağıda paylaşılmıştır."
+    "text": "MUY655 İş Analitiği dersi Çalışma 1 içeriği aşağıda paylaşılmıştır. Örnek"
   },
   {
     "objectID": "proje.html#veri-kaynağı",
@@ -554,14 +554,22 @@
     "href": "takim/hazalakbulutbiyik.html#işler",
     "title": "Hazal Akbulut Bıyık",
     "section": "İşler",
+<<<<<<< Updated upstream
     "text": "İşler\n\nTürkiye Teknoloji Geliştirme Vakfı, Program Uzmanı, Haziran 2023 - Devam Ediyor\nGÜRİŞ Holding, Çevre Mühendisi, Kasım 2021-Haziran 2023\nENCON Mühendislik A.Ş., Çevre Mühendisi, Aralık 2020-Ekim 2021"
+=======
+    "text": "İşler\n\nTürkiye Teknoloji Geliştirme Vakfı, Program Uzmanı, Haziran 2023 - Devam Ediyor\nGÜRİŞ Holding, Çevre Mühendisi, Kasım 2021- Haziran 2023\nENCON Çevre Danışmanlık Ltd. Şti., Çevre Mühendisi, Aralık 2020 - Ekim 2021"
+>>>>>>> Stashed changes
   },
   {
     "objectID": "takim/hazalakbulutbiyik.html#stajlar",
     "href": "takim/hazalakbulutbiyik.html#stajlar",
     "title": "Hazal Akbulut Bıyık",
     "section": "Stajlar",
+<<<<<<< Updated upstream
     "text": "Stajlar\n\nTimex Filtrasyon ve Su Sistemleri, Çevre Mühendisi, 2020\nÇınar Mühendislik A.Ş., Çevre Mühendisi, 2019\nESART A.Ş., Çevre Mühendisi, 2018"
+=======
+    "text": "Stajlar\n\nTimex Filtrasyon ve Su Sistemleri, Çevre Mühendisi, 2020\nÇınar Mühendislik A.Ş., Çevre Mühendisi, 2019\nESART A.Ş., Çevre Mühendisi, 1018"
+>>>>>>> Stashed changes
   },
   {
     "objectID": "takim/betultekesariyer.html#işler",
@@ -610,14 +618,14 @@
     "href": "takim/gozdetekin.html#işler",
     "title": "Gözde Tekin",
     "section": "İşler",
-    "text": "İşler\n\nFirma xxx, pozisyon xx, yıl xxx\nFirma yyy, pozisyon yyy, yıl yyy"
+    "text": "İşler\n\nMakine ve Kimya Endüstrisi A.Ş. Üretim Mühendisi, 2023-\nBiem İlaç San. ve Tic. A.Ş , Ruhsatlandırma Uzmanı, 2021-2023\nGen İlaç ve Sağlık Ürünleri A.Ş. , Üretim Mühendisi, 2020-2021\nDİnçsa İlaç San. ve Tic A.Ş. , Üretim Mühendisi, 2019-2020"
   },
   {
     "objectID": "takim/gozdetekin.html#stajlar",
     "href": "takim/gozdetekin.html#stajlar",
     "title": "Gözde Tekin",
     "section": "Stajlar",
-    "text": "Stajlar\n\nFirma aaa, pozisyon xx, yıl xxx\nFirma bbb, pozisyon yyy, yıl yyy"
+    "text": "Stajlar\n\nTürk Havacılık ve Uzay Sanayi, Stajyer Mühendis, 2016"
   },
   {
     "objectID": "takim/gorkemyalin.html#işler",
