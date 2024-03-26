@@ -17,7 +17,6 @@ Bu videoda ....
 
 Bu çalışmada **mtcars** veri seti incelenmiştir. Özel Fonksiyonlar ve Döngüler ile istatistiksel özetleri aşağıdaki gibidir.
 
-## 1.
 
 ```{r}
 install.packages("dslabs") 
@@ -27,7 +26,6 @@ print(mtcars)
 
 ```
 
-## 2.
 
 ## c.
 
