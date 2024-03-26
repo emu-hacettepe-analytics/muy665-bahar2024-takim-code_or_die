@@ -29,7 +29,7 @@ website:
       contents:
         - portfolyo.qmd
         - portfolyo/calisma1.qmd
-        - portfolyo/calisma2.qmd  
+        - portfolyo/calisma2.qmd
         - portfolyo/calisma3.qmd
         
     - title: "Takım"
