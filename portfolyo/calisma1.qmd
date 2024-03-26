@@ -19,7 +19,6 @@ Bu çalışmada **mtcars** veri seti incelenmiştir. Özel Fonksiyonlar ve Döng
 
 
 ```{r}
-install.packages("dslabs") 
 library(dslabs) 
 data("mtcars") 
 print(mtcars)

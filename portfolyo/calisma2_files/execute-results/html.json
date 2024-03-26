@@ -1,0 +1,14 @@
+{
+  "hash": "907de9feb700a6df3c93962beba36573",
+  "result": {
+    "markdown": "---\ntitle: \"Çalışma 2\"\n---\n\n\nBu çalışmada **mtcars** veri seti incelenmiştir. Özel Fonksiyonlar ve Döngüler ile istatistiksel özetleri aşağıdaki gibidir.\n\n## 1.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n## 2.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
