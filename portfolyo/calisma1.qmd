@@ -29,34 +29,38 @@ print(mtcars)
 ## 2. custom_summary fuction tanımlama
 
 ```{r}
-custom_summary <- function(vec) {
+custom_summary <- function(code_or_die) {
   summary_list <- list(
-    Mean = mean(vec),
-    Median = median(vec),
-    Standard_Deviation = sd(vec),
-    Minimum = min(vec),
-    Maximum = max(vec)
+    Mean = mean(code_or_die),
+    Median = median(code_or_die),
+    Standard_Deviation = sd(code_or_die),
+    Minimum = min(code_or_die),
+    Maximum = max(code_or_die)
   )
   return(summary_list)
 }
 print(custom_summary)
 ```
-##3.Veri setinin sayısal sütunlarını içeren bir vektör oluşturalım
+
+##3.Veri setinin sütunlarının sayısal olduğundan emin olalım
 
 ```{r}
-numeric_columns <- sapply(mtcars, is.numeric)
-print(numeric_columns)
+sayisal_sutun <- sapply(mtcars, is.numeric)
+print(sayisal_sutun)
 
 ```
+
 ##4. Sayısal sütunlar üzerinde döngü ile custom_summary fonksiyonunu uygulayalım
 
 ```{r}
-for (col_name in names(mtcars)[numeric_columns]) {
-  cat("Column:", col_name, "\n")
-  print(custom_summary(mtcars[[col_name]]))
+for (sutun_adi in names(mtcars)[sayisal_sutun]) {
+  cat("Column:", sutun_adi, "\n")
+  print(custom_summary(mtcars[[sutun_adi]]))
 }
+## 58. satırda "cat" fonksiyonu ile concatenate (birleştirmek) amacıyla kullanılmıştır.
 
 ```
+
 ##5.apply ile Alternatif Bir Yaklaşımı
 
 ```{r}
@@ -64,8 +68,6 @@ result <- apply(mtcars, 2, custom_summary)
 print(result)
 
 ```
-
-
 
 ## c. "na_example" Veriseti İnceleme Çalışması
 
