@@ -3,14 +3,8 @@ title: "Çalışma 1"
 ---
 
 \
-(Aşağıdakiler örnek olarak verilmiştir.)
+Bu çalışmada aşağıdaki videonun özeti hazırlanmıştır.
 
-Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
+[Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir](https://www.youtube.com/watch?v=tV_0pHSdLAM)
 
-## (a)
-
-```{r}
-1 + 1
-```
-
-## (b)
+Bu videoda ....
