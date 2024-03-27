@@ -2,37 +2,43 @@
 title: "Sait Fidan"
 ---
 
-![](/assets/images/vesikalik.jpeg){fig-align="center"}
+![](/assets/images/saitfidan.jpg){fig-align="center" width="300"}
 
 # Eğitim
 
--   Lisans, ................................., .................................... Üniversitesi, Türkiye, 20xx - 20xx.
--   Yüksek Lisans, Endüstri Mühendisliği, Hacettepe Üniversitesi, Türkiye, 20xx - devam ediyor.
+Yüksek Lisans, Mühendislik Yönetimi, Hacettepe Üniversitesi, Türkiye, 2024- devam ediyor.  
+Lisans, Elektrik Elektronik Mühendisliği, Kırıkkale Üniversitesi, Türkiye, 2014 -2018
 
 # İş Deneyimi
 
 ## İşler
 
-1.  Firma xxx, pozisyon xx, yıl xxx
+1.  ANOVA ARGE TEKNOLOJİLERİ.A.Ş, KALİTE MÜHENDİSİ, 2021-
 
-2.  Firma yyy, pozisyon yyy, yıl yyy
+2.  2G HAVACILIK ELEKTRONİK A.Ş, PROJE/ÜRETİM MÜHENDİSİ, 2018-2021
 
 ## Stajlar
 
-1.  Firma aaa, pozisyon xx, yıl xxx
+1.  METEKSAN SAVUNMA A.Ş, STAJYER MUHENDİS, 2017
 
-2.  Firma bbb, pozisyon yyy, yıl yyy
+2.  ORTANA ELEKTRONİK A.Ş., STAJYER MUHENDİS, 2016
 
 # Projeler
 
-1.  TÜBİTAK 1001..........................
+1.  TÜBİTAK 1001 TEKNOFEST İNSANSIZ HAVA ARACI PROJESİ
+2   TÜBİTAK (CRYOCOOLER)KRİYOJENİK SOGUTUCU PROJESİ 
+3.  ORKA AKUSTİK DİZİNİ PROJESİ  
+4.  ODTÜ GÜNAM İŞ ORTAKLIĞI İLE SOLAR ÇANTA PROJESİ
 
 # Yayınlar
 
-1.  Dasdemir, E., Batta, R., Koksalan, M., Tezcaner Öztürk, D. (2022) “İHA Yönlendirmesi için Keşif Misyonu: Zaman Bağımlı Ödülleri ve Çoklu Bağlantıları Olan Çok Amaçlı Oryantiring Problemi”, Computers & Operations Research, 145: 105882
 
 # Yetkinlikler
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, Redmine, Altium
 
 # Hobiler
+
+Doga yürüyüsü yapmak, kitap okumak, yüzmek
+
+
