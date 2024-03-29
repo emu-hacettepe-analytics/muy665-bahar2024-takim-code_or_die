@@ -2,9 +2,9 @@
 title: "Çalışma 1"
 ---
 
-MUY655 İş Analitiği dersi Çalışma 1 içeriği aşağıda paylaşılmıştır. Örnek
+MUY655 İş Analitiği dersi Çalışma 1 içeriği aşağıda paylaşılmıştır.
 
-## a. "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler" Videosu Özet Çalışması
+# a. "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler" Videosu Özet Çalışması
 
 \
 Bu çalışmada aşağıdaki videonun özeti hazırlanmıştır.
@@ -13,11 +13,11 @@ Bu çalışmada aşağıdaki videonun özeti hazırlanmıştır.
 
 Bu videoda ....
 
-## b. "mtcars" Veriseti İnceleme Çalışması
+# b. "mtcars" Veriseti İnceleme Çalışması
 
 Bu çalışmada **mtcars** veri seti incelenmiştir. Özel Fonksiyonlar ve Döngüler ile istatistiksel özetleri aşağıdaki gibidir.
 
-## 1. mtcars veri seti tanımlandı
+## b.1. mtcars veri seti tanımlama
 
 ```{r}
 library(dslabs) 
@@ -26,7 +26,7 @@ print(mtcars)
 
 ```
 
-## 2. custom_summary fuction tanımlama
+## b.2. custom_summary fuction tanımlama
 
 ```{r}
 custom_summary <- function(code_or_die) {
@@ -42,7 +42,7 @@ custom_summary <- function(code_or_die) {
 print(custom_summary)
 ```
 
-##3.Veri setinin sütunlarının sayısal olduğundan emin olalım
+## b.3. Veri setinin sütunlarının sayısal olduğundan emin olma
 
 ```{r}
 sayisal_sutun <- sapply(mtcars, is.numeric)
@@ -50,7 +50,7 @@ print(sayisal_sutun)
 
 ```
 
-##4. Sayısal sütunlar üzerinde döngü ile custom_summary fonksiyonunu uygulayalım
+## b.4. Sayısal sütunlar üzerinde döngü ile custom_summary fonksiyonunu uygulama
 
 ```{r}
 for (sutun_adi in names(mtcars)[sayisal_sutun]) {
@@ -61,7 +61,7 @@ for (sutun_adi in names(mtcars)[sayisal_sutun]) {
 
 ```
 
-##5.apply ile Alternatif Bir Yaklaşımı
+## b.5. apply ile alternatif bir uygulama
 
 ```{r}
 result <- apply(mtcars, 2, custom_summary)
@@ -69,11 +69,11 @@ print(result)
 
 ```
 
-## c. "na_example" Veriseti İnceleme Çalışması
+# c. "na_example" Veriseti İnceleme Çalışması
 
 Bu çalışmada "na_example" veri seti üzerinde çalışılarak aşağıdaki işlemler yapılmıştır.
 
-### 1. N/A içeren data set
+## c.1. N/A içeren data set
 
 ```{r}
 install.packages("dslabs") 
@@ -82,14 +82,14 @@ data(na_example)
 print(na_example)
 ```
 
-### 2.Toplam N/A sayı değeri
+## c.2. Toplam N/A sayı değeri
 
 ```{r}
 total_na <- sum(is.na(na_example))
 print(paste("Toplam NA değeri sayısı:", total_na))
 ```
 
-### 3.N/A değerlerinin 665 ile değiştirilmesi
+## c.3. N/A değerlerinin 665 ile değiştirilmesi
 
 ```{r}
 updated_data <- na_example
@@ -97,14 +97,14 @@ updated_data[is.na(updated_data)] <- 665
 print(updated_data)
 ```
 
-### 4.Güncellenmiş veri setindeki toplam NA değeri sayısı
+## c.4. Güncellenmiş veri setindeki toplam NA değeri sayısı
 
 ```{r}
 new_total_na <- sum(is.na(updated_data))
 print(paste("Güncellenmiş veri setindeki toplam NA değeri sayısı:", new_total_na))
 ```
 
-### 5.Güncellenmiş veri setindeki toplam 655 değeri sayısı
+## c.5. Güncellenmiş veri setindeki toplam 655 değeri sayısı
 
 ```{r}
 count_665 <- sum(updated_data == 665)
