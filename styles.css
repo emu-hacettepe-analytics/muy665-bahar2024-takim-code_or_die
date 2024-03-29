@@ -1,6 +1,8 @@
 /* css styles */
 body {
-    background-color: black; /* Arka plan rengini siyah olarak ayarla */
+    background-image: url(images/background.jpg); /* Arka plan resmini belirtin */
+    background-size: cover; /* Resmin body'ye sığdırılmasını sağlayın */
+    background-repeat: no-repeat; /* Resmin tekrar etmemesini sağlayın */
     color:white;
 }
 
