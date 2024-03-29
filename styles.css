@@ -1,4 +1,16 @@
 /* css styles */
 body {
     background-color: black; /* Arka plan rengini siyah olarak ayarla */
+    color:white;
 }
+
+navbar {
+    background-color: black; 
+    color: white;
+}
+
+sidebar {
+    background-color: black; 
+    color: white;
+}
+
