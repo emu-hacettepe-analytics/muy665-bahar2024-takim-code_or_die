@@ -2,7 +2,7 @@
 title: "Gözde Tekin"
 ---
 
-![](/assets/images/vesikalik.jpeg){fig-align="center"}
+![](images/gozdetekin.png){fig-align="center"}
 
 # Eğitim
 
