@@ -19,9 +19,6 @@ title: "Hazal Akbulut Bıyık"
 
 2.  ENCON Mühendislik A.Ş., Çevre Mühendisi, Aralık 2020-Ekim 2021
 
-2.  GÜRİŞ Holding, Çevre Mühendisi, Kasım 2021- Haziran 2023
-
-3.  ENCON Çevre Danışmanlık Ltd. Şti., Çevre Mühendisi, Aralık 2020 - Ekim 2021
 
 
 ## Stajlar
@@ -32,7 +29,6 @@ title: "Hazal Akbulut Bıyık"
 
 3.  ESART A.Ş., Çevre Mühendisi, 2018
 
-3.  ESART A.Ş., Çevre Mühendisi, 2017
 
 
 # Projeler
@@ -52,4 +48,4 @@ R, Quarto, Git, Autocad, MS Office
 
 # Hobiler
 
-Salsa, Bachata, Fotoğrafçılık
+Salsa, Bachata, Fotoğrafçılık, Kamp Yapmak, Yüzme
