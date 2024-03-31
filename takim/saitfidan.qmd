@@ -2,12 +2,11 @@
 title: "Sait Fidan"
 ---
 
-![](/takim/images/saitfidan.JPG){fig-align="center" width="300"}
+![](images/saitfidan.jpg){fig-align="center" width="300"}
 
 # Eğitim
 
-Yüksek Lisans, Mühendislik Yönetimi, Hacettepe Üniversitesi, Türkiye, 2024- devam ediyor.
-Lisans, Elektrik Elektronik Mühendisliği, Kırıkkale Üniversitesi, Türkiye, 2014 -2018
+Yüksek Lisans, Mühendislik Yönetimi, Hacettepe Üniversitesi, Türkiye, 2024- devam ediyor. Lisans, Elektrik Elektronik Mühendisliği, Kırıkkale Üniversitesi, Türkiye, 2014 -2018
 
 # İş Deneyimi
 
