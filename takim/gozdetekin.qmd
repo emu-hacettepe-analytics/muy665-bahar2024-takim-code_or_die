@@ -1,6 +1,8 @@
 ---
 title: "Gözde Tekin"
 ---
+[PDF İndir](gozde_tekin_cv.pdf)
+---
 
 ![](images/gozdetekin.png){fig-align="center"}
 
