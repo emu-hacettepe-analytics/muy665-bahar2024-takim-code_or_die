@@ -33,20 +33,6 @@ Konuşmacı ayrıca karar vermede tahmin doğruluğunun önemini vurgulamaktadı
 
 Son olarak çıkarımlar kısmında ise; doğru veriyi elde etmek doğru dönüşümleri yapmanın ve az veya kirli veri ile uğraşın ciddi insan kaynağı gerektirdiğinin önemine dikkat çekmektedir. Ayrıca karar verme için kullanılan tahminlerin yüzde yüz doğru olmak zorunda olmadığını ve bir aralık verilerek tahmin yapılıyorsa doğru karar olarak sayılabileceğini vurgulamaktadır.
 
-\*\*\*CHATGPT
-
-Bu konuşmada, konuşmacı öğrenme süreci, kariyer gelişimi ve makine öğrenimi gibi çeşitli konuları kapsayan önemli noktaları ele alır. Öğrenme sürecinin kişisel tercihlere ve tecrübelere göre şekillendiğini belirtmektedir. Kendi deneyimlerinden yola çıkarak lisans hayatından şu ana kadarki süreçte, özellikle pratik yaparak ve sorunlarla karşılaşarak öğrenmenin önemini vurgulamaktadır.
-
-Kariyer gelişimi konusunda, cesaretin ve sürekli öğrenmenin gerekliliğine işaret eder. Özellikle, farklı problemlerle karşılaşmanın ve onları çözmenin, kişinin becerilerini geliştirmesine yardımcı olduğunu belirtir. Ayrıca, ilgi duyulan konular üzerinde derinlemesine çalışmanın önemine değinir ve ilgili kişilere danışarak ve iş birlikleri yaparak öğrenme sürecini desteklemenin faydalarını vurgular.
-
-Yüksek lisans ve doktora eğitiminin yapılmasına ilişkin önerilerde bulunurken, Türkiye'deki koşullar ve ekonomik durumun göz önünde bulundurulmasına dikkat çekmektedir. Yüksek lisans ve doktora eğitimini Türkiye'de tamamlamanın avantajlarından bahseder ve akademik kariyer için uygun bir temel sağlayabileceğini belirtmektedir. Sonraki süreçte yurt dışında eğitime devam etmenin mevcut tecrübeler ve öğrencilerinden aldığı geri bildirimler doğrultusunda daha iyi olacağına inanmaktadır.
-
-Makine öğrenimi ve derin öğrenme gibi alanlarda başlamak isteyenler için, öğrenme kaynakları ve başlangıç noktaları hakkında önerilerde bulunmaktadır. Özellikle, kolay anlaşılır ve örneklerle açıklayıcı olması bakımından istatistikçilerin yazdığı "Introduction to Statistical Learning” kitabını tavsiye etmektedir.
-
-Son olarak, karar verme ve tahmin yeteneklerinin önemini vurgular ve hem model hem matematiksel optimizasyon problemi ve tahmin ihtiyacı içeren prescriptive analytics gibi konulara da değinir. Karar verme ve tahmin yeteneklerini geliştirmenin, endüstri mühendisliği gibi alanlarda başarılı olmanın önemli bir unsuru olduğunu belirtmektedir.
-
-Genel olarak, bu konuşma öğrencilere veri bilimi üzerine kariyer gelişimi ve makine öğrenimi gibi alanlarda başarılı olmaları için değerli bilgiler sunmakta ve kişisel deneyimlerinden de yola çıkarak tavsiyelerde bulunmaktadır.
-
 # b. "mtcars" Veriseti İnceleme Çalışması
 
 Bu çalışmada **mtcars** veri seti incelenmiştir. Özel Fonksiyonlar ve Döngüler ile istatistiksel özetleri aşağıdaki gibidir.

@@ -2,6 +2,8 @@
 title: "Betül Teke Sarıyer"
 ---
 
+[PDF İndir](BetulTeke_CV_03.24.pdf)
+
 ![](/assets/images/betultekesariyer.jpg){fig-align="center" width="300"}
 
 # Eğitim
@@ -42,5 +44,3 @@ R, Quarto, Git, MS Office, Microsoft Visual Basic, Proje Yönetimi, İş Analiti
 # Hobiler
 
 Basketbol, Gitar, Bateri, Darbuka
-
-# [Detaylı CV için tıklayınız.](bit.ly/betul_teke_sariyer_CV)
