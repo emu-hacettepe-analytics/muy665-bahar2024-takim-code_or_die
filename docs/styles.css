@@ -1,4 +1,15 @@
 /* css styles */
 body {
-    background-color: black; /* Arka plan rengini siyah olarak ayarla */
+    background-color: lightblue; /* Arka plan rengini pembe olarak ayarla */
+    color: black;
+}
+
+navbar {
+    background-color: lightblue; 
+    color: black;
+}
+
+sidebar {
+    background-color: lightblue; 
+    color: black;
 }
