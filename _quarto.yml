@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  favicon:  href="favicon.png"
+  favicon: favicon.png
   title: "Code or Die Takımı Analitik Labı"
   navbar:
     search: true

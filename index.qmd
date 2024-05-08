@@ -1,29 +1,33 @@
 ---
-title: "Takım: Code or Die"
-sidebar: false 
+styles:
+  styles.css
+sidebar: false
 ---
 
-MUY660-İş Analitiği dersi takım sayfamıza hoş geldiniz.
+::: {style="text-align: center"}
+::: {style="font-family: fantasy; font-size: 50px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 39.6px; color: #333333;"}
+**Code or Die**
+:::
+:::
 
-Bu analitik çalışmalarımızı paylaşıyoruz.
+> *Proje Sayfamıza Hoş Geldiniz.*
 
-Lütfen faaliyetlerimizi görmek için bizi takipte kalın.
+Hi! :smile: Welcome to our project webpage (silebiliriz).
 
-## Takım Üyeleri
+komikli bir yazı yazalım.
 
-1.  [Safinaz Öksüz](/takim/safinazoksuz.qmd)
+![](code.gif){fig-align="center" width="50%" heigh="50%" }
 
-2.  [Betül Teke Sarıyer](/takim/betultekesariyer.qmd)
+## Takım Üyeleri {style="text-align: center"}
 
-3.  [Hazal Akbulut Bıyık](/takim/hazalakbulutbiyik.qmd)
-
-4.  [Oğuzhan Sarıyer](/takim/oguzhansariyer.qmd)
-
-5.  [Gözde Tekin](/takim/gozdetekin.qmd)
-
-6.  [Görkem Yalın](/takim/gorkemyalin.qmd)
-
-7.  [Sait Fidan](/takim/saitfidan.qmd)
+[Safinaz Öksüz](/takim/safinazoksuz.qmd){.download-button}
+[Betül Teke Sarıyer](/takim/betultekesariyer.qmd){.download-button}
+[Hazal Akbulut Bıyık](/takim/hazalakbulutbiyik.qmd){.download-button}
+[Oğuzhan Sarıyer](/takim/oguzhansariyer.qmd){.download-button}
+[Gözde Tekin](/takim/gozdetekin.qmd){.download-button}
+[Görkem Yalın](/takim/gorkemyalin.qmd){.download-button}
+[Sait Fidan](/takim/saitfidan.qmd){.download-button}
+<a href="/takim/saitfidan.qmd" class="download-button">Sait Fidan</a>
 
 ## Proje Adı
 
@@ -37,9 +41,12 @@ Bu çalışmada, MUY660-İş Analitiği ders içeriğinin analitik yaklaşımlar
 
 TÜİK araştırmalarından elde edilen verilerle toplamda 3 farklı veri seti oluşturduk. Bu veri setleri, 2013-2022 yılları arasında Türkiye genelinde toplam 9 farklı bölge ve metropol olan İstanbul'u ayrı incelediğimiz, toplamda 10 değişken içeren veri setlerini içermektedir. Bu veri setlerini ayrıca cinsiyet ayrımı yaparak 2 grupta inceledik. Son olarak, bu 10 yıl içindeki intiharların sebeplerini derlediğimiz bir veri seti oluşturduk:
 
-1. 2013-2022 arası Türkiye'de intihar eden kadın sayısı
-2. 2013-2022 arası Türkiye'de intihar eden erkek sayısı
-3. 2013-2022 arası Türkiye'de intihar eden kişilerin intihar sebepleri
+1.  2013-2022 arası Türkiye'de intihar eden kadın sayısı
+2.  2013-2022 arası Türkiye'de intihar eden erkek sayısı
+3.  
+
+[2013-2022 arası Türkiye'de intihar eden kişilerin intihar sebepleri](){.download-button}
+
 
 ## Sonuçlar
 

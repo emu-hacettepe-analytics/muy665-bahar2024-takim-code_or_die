@@ -1,15 +1,15 @@
 /* css styles */
 body {
-    background-color: lightblue; /* Arka plan rengini pembe olarak ayarla */
+    background-color: lightgrey; /* Arka plan rengini pembe olarak ayarla */
     color: black;
 }
 
 navbar {
-    background-color: lightblue; 
+    background-color: lightgrey; 
     color: black;
 }
 
 sidebar {
-    background-color: lightblue; 
+    background-color: lightgrey; 
     color: black;
 }
