@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  favicon:  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  favicon:  href="favicon.png"
   title: "Code or Die Takımı Analitik Labı"
   navbar:
     search: true
