@@ -1,9 +1,16 @@
 ---
-title: "Proje X (proje adını yazınız)"
-number-sections: true
+styles:
+  styles.css
+sidebar: false
 ---
 
-**Proje sayfamıza hoş geldiniz.**
+::: {style="text-align: center"}
+::: {style="font-family: fantasy; font-size: 50px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 39.6px; color: #333333;"}
+**Code or Die**
+:::
+:::
+
+> *Proje Sayfamıza Hoş Geldiniz.*
 
 *Projemizle ilgili güncellemelerden haberdar olmak için bu alanı takip edin.*
 
@@ -31,7 +38,37 @@ xxxxxx
 
 ## Ön İşleme
 
-xxxxxx
+1.  2013-2022 toplam intihar sayısı:
+```{r}
+# readxl paketini yükle
+install.packages("readxl")
+library(readxl)
+
+# Kadın intihar sayılarını oku
+kadın_veri <- read_excel("tr_intihar_cinsiyet_kadin.xlsx")
+
+# Erkek intihar sayılarını oku
+erkek_veri <- read_excel("tr_intihar_cinsiyet_erkek.xlsx")
+
+# Toplam kadın intihar sayısı
+toplam_kadın <- sum(yil_kadin)
+
+# Toplam erkek intihar sayısı
+toplam_erkek <- sum(yil_erkek)
+
+# Toplam intihar sayısı
+toplam <- toplam_kadın + toplam_erkek
+
+# Sonuçları yazdır
+print(paste("Toplam kadın intihar sayısı:", toplam_kadın))
+print(paste("Toplam erkek intihar sayısı:", toplam_erkek))
+print(paste("Toplam intihar sayısı:", toplam))
+
+
+
+
+```
+
 
 # Analiz
 
