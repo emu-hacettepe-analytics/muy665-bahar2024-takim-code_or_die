@@ -27,7 +27,6 @@ komikli bir yazı yazalım.
 [Gözde Tekin](/takim/gozdetekin.qmd){.download-button}
 [Görkem Yalın](/takim/gorkemyalin.qmd){.download-button}
 [Sait Fidan](/takim/saitfidan.qmd){.download-button}
-<a href="/takim/saitfidan.qmd" class="download-button">Sait Fidan</a>
 
 ## Proje Adı
 
@@ -41,11 +40,10 @@ Bu çalışmada, MUY660-İş Analitiği ders içeriğinin analitik yaklaşımlar
 
 TÜİK araştırmalarından elde edilen verilerle toplamda 3 farklı veri seti oluşturduk. Bu veri setleri, 2013-2022 yılları arasında Türkiye genelinde toplam 9 farklı bölge ve metropol olan İstanbul'u ayrı incelediğimiz, toplamda 10 değişken içeren veri setlerini içermektedir. Bu veri setlerini ayrıca cinsiyet ayrımı yaparak 2 grupta inceledik. Son olarak, bu 10 yıl içindeki intiharların sebeplerini derlediğimiz bir veri seti oluşturduk:
 
-1.  2013-2022 arası Türkiye'de intihar eden kadın sayısı
-2.  2013-2022 arası Türkiye'de intihar eden erkek sayısı
-3.  
 
-[2013-2022 arası Türkiye'de intihar eden kişilerin intihar sebepleri](){.download-button}
+1. [2013-2022 arası Türkiye'de intihar eden kadın sayısı](tr_intihar_cinsiyet_kadin.xlsx){.download-button}
+2. [2013-2022 arası Türkiye'de intihar eden erkek sayısı](tr_intihar_cinsiyet_erkek.xlsx){.download-button}
+3. [2013-2022 arası Türkiye'de intihar eden kişilerin intihar sebepleri](tr_intihar_sebep.xlsx){.download-button}
 
 
 ## Sonuçlar
