@@ -27,13 +27,19 @@ Lütfen faaliyetlerimizi görmek için bizi takipte kalın.
 
 ## Proje Adı
 
-MUY660-İş Analitiği iyileştirme çalışmaları (örnek)
+Türkiye'de 2013-2022 Yılları Arasında Gerçekleşen İntihar Vakalarının Cinsiyete ve Sebeplere Göre Bölgesel İncelenmesi
 
 ## Proje Konusu
 
-Örnek: Bu projede MUY660-İş Analitiği ders içeriğinin analitik yaklaşımlarla iyileştirilmesini hedefledik. Bu doğrultuda tüm üniversitelerdeki benzer derslerin verisini toplayarak bir veri seti oluşturduk Analiz için ........ yöntemleri kullanarak, ....... çalışmaları yaptık Sonuç olarak, MUY660-İş Analitiği dersinin dünyadaki tüm derslerden daha iyi olduğunu ve bu dersi aldığımız için çok mutlu olduğumuzu tespit ettik.
+Bu çalışmada, MUY660-İş Analitiği ders içeriğinin analitik yaklaşımlarını kullanarak Türkiye'de 2013-2022 yılları arasında gerçekleşen intihar vakalarının cinsiyete ve sebeplere göre bölgesel olarak incelenmesini hedefledik. Bu kapsamda, Türkiye genelindeki vakaları TÜİK araştırmalarından elde ederek çalışmanın verilerini derleyerek bir veri seti oluşturduk. Analiz sürecinde çeşitli yöntemler kullanarak detaylı çalışmalar gerçekleştirdik. Sonuç olarak, Türkiye'deki intihar vakalarını incelemeye yönelik bu çalışmanın, son 10 yılda gerçekleşen vakaları daha kapsamlı bir şekilde ele aldığını ve elde ettiğimiz bulguların önemli bir kaynak olduğunu belirledik.
 
 ## Veri Seti Hakkında Özet Bilgi
+
+TÜİK araştırmalarından elde edilen verilerle toplamda 3 farklı veri seti oluşturduk. Bu veri setleri, 2013-2022 yılları arasında Türkiye genelinde toplam 9 farklı bölge ve metropol olan İstanbul'u ayrı incelediğimiz, toplamda 10 değişken içeren veri setlerini içermektedir. Bu veri setlerini ayrıca cinsiyet ayrımı yaparak 2 grupta inceledik. Son olarak, bu 10 yıl içindeki intiharların sebeplerini derlediğimiz bir veri seti oluşturduk:
+
+1. 2013-2022 arası Türkiye'de intihar eden kadın sayısı
+2. 2013-2022 arası Türkiye'de intihar eden erkek sayısı
+3. 2013-2022 arası Türkiye'de intihar eden kişilerin intihar sebepleri
 
 ## Sonuçlar
 
