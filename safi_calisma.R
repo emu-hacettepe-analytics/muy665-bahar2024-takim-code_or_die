@@ -80,12 +80,31 @@ if (toplam_intihar_sayisi == toplam_cinsiyet_sayisi) {
 
 colnames(intiharkadinsayisi)
 
-toplam_kadin <- data.frame(
+# Toplam kadın sayısını hesapla
+toplam_kadin <- rowSums(intiharkadinsayisi[, c("istanbul", "bati marmara", "ege", "dogu marmara", "bati anadolu", "akdeniz", "orta anadolu", "bati karadeniz", "dogu karadeniz", "kuzeydogu anadolu", "ortadogu anadolu", "güneydogu anadolu")])
+
+# Yılları ve toplam kadın sayılarını içeren yeni bir veri çerçevesi oluştur
+toplam_kadin_tablo <- data.frame(
   yil = intiharkadinsayisi$yil,
-  toplam_kadin = rowSums(intiharkadinsayisi[, c("istanbul", "batimarmara", "ege", "dogumarmara", "batimarmara", "ortaanadolu", "digerbolgeler")])
+  toplam_kadin = toplam_kadin
 )
 
-# Sonucu göster
-print(toplam_kadin)
+# Sonucu yazdır
+print(toplam_kadin_tablo)
+
+# Toplam erkek sayısını hesapla
+toplam_erkek <- rowSums(intiharerkeksayisi[, c("istanbul", "bati marmara", "ege", "dogu marmara", "bati anadolu", "akdeniz", "orta anadolu", "bati karadeniz", "dogu karadeniz", "kuzeydogu anadolu", "ortadogu anadolu", "güneydogu anadolu")])
+
+
+# Yılları ve toplam erkek sayılarını içeren yeni bir veri çerçevesi oluştur
+toplam_erkek_tablo <- data.frame(
+  yil = intiharkadinsayisi$yil,
+  toplam_erkek = toplam_erkek
+)
+
+# Sonucu yazdır
+print(toplam_erkek_tablo)
+
+
 
 
