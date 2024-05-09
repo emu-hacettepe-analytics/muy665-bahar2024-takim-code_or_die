@@ -76,10 +76,14 @@ if (toplam_intihar_sayisi == toplam_cinsiyet_sayisi) {
   print("Her sebep için toplam intihar cinsiyet toplamına sayısına eşit değildir.\n")
 }
 
-# Yıllara göre gruplayıp toplam kadın sayılarını hesaplama
-toplam_kadin <- intiharkadinsayisi%>%
-  group_by(yil) %>%
-  summarise(toplam_kadin = sum(istanbul, batimarmara, ege, dogumarmara, batimarmara, ortaanadolu, digerbolgeler))
+# Her yıl için toplam kadın sayısını hesapla
+
+colnames(intiharkadinsayisi)
+
+toplam_kadin <- data.frame(
+  yil = intiharkadinsayisi$yil,
+  toplam_kadin = rowSums(intiharkadinsayisi[, c("istanbul", "batimarmara", "ege", "dogumarmara", "batimarmara", "ortaanadolu", "digerbolgeler")])
+)
 
 # Sonucu göster
 print(toplam_kadin)
