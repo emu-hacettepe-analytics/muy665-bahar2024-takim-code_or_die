@@ -65,14 +65,20 @@ print(paste("Toplam erkek intihar sayısı:", toplam_erkek))
 print(paste("Toplam intihar sayısı:", toplam))
 
 
-
+#burada tr geneli şu kadar kişi bu 10 yılda intihar etmiş Şukadarı kadın şukararı erkek şeklinde sum vs. komutlarıı kullarak gösterelim#
 
 ```
 
 
 # Analiz
 
-xxxxxx
+xxxxxx  
+```{r}
+# 1. grafik bir böglere göre yıllık kadın cinayeti                                                              2. grafik bir böglere göre yıllık erkek  cinayeti                                                              3. grafik yıl sebep grafiği    #
+
+
+
+```
 
 ## Keşifsel Veri Analizi
 
