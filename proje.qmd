@@ -14,7 +14,6 @@ sidebar: false
 
 *Projemizle ilgili güncellemelerden haberdar olmak için bu alanı takip edin.*
 
-(Aşağıdaki başlıklar örnek olarak verilmiştir; lütfen gerektiği şekilde düzenlemekten çekinmeyin.)
 
 # Proje Genel Bakış ve Kapsamı
 
@@ -40,32 +39,6 @@ xxxxxx
 
 1.  2013-2022 toplam intihar sayısı:
 ```{r}
-# readxl paketini yükle
-install.packages("readxl")
-library(readxl)
-
-# Kadın intihar sayılarını oku
-kadın_veri <- read_excel("tr_intihar_cinsiyet_kadin.xlsx")
-
-# Erkek intihar sayılarını oku
-erkek_veri <- read_excel("tr_intihar_cinsiyet_erkek.xlsx")
-
-# Toplam kadın intihar sayısı
-toplam_kadın <- sum(yil_kadin)
-
-# Toplam erkek intihar sayısı
-toplam_erkek <- sum(yil_erkek)
-
-# Toplam intihar sayısı
-toplam <- toplam_kadın + toplam_erkek
-
-# Sonuçları yazdır
-print(paste("Toplam kadın intihar sayısı:", toplam_kadın))
-print(paste("Toplam erkek intihar sayısı:", toplam_erkek))
-print(paste("Toplam intihar sayısı:", toplam))
-
-
-#burada tr geneli şu kadar kişi bu 10 yılda intihar etmiş Şukadarı kadın şukararı erkek şeklinde sum vs. komutlarıı kullarak gösterelim#
 
 ```
 
@@ -74,27 +47,10 @@ print(paste("Toplam intihar sayısı:", toplam))
 
 xxxxxx  
 ```{r}
-# 1. grafik bir böglere göre yıllık kadın cinayeti                                                              2. grafik bir böglere göre yıllık erkek  cinayeti                                                              3. grafik yıl sebep grafiği    #
-
 
 
 ```
 
-## Keşifsel Veri Analizi
-
-xxxxxx
-
-## Trend Analizi
-
-xxxxxx
-
-## Model Uydurma
-
-xxxxxx
-
-## Sonuçlar
-
-xxxxxx
 
 # Sonuçlar ve Ana Çıkarımlar
 
