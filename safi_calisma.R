@@ -5,6 +5,7 @@ install.packages("dplyr")
 library(dplyr)
 library(ggplot2)
 
+
 # intiharsebepsayisi veri çerçevesini oluşturun veya yükleyin
 # Örnek olarak:
 intiharsebepsayisi <- read.csv("dosya_yolu.csv")
@@ -41,7 +42,7 @@ intiharsebepsayisi <- read_excel(dosya_yolu3)
 
 print(intiharsebepsayisi)
 
-dosya_yolu4 <- "C:/Users/soksuz/OneDrive - adesso Group/Documents/GitHub/muy665-bahar2024-takim-code_or_die-1/toplam_nufus.xlsx"
+dosya_yolu4 <- "C:/Users/soksuz/OneDrive - adesso Group/Documents/GitHub/muy665-bahar2024-takim-code_or_die-1/toplam_nufus_sayisi.xlsx"
 toplamnufus <- read_excel(dosya_yolu4)
 
 print(toplamnufus)
@@ -211,3 +212,50 @@ ggplot(toplam_sebep_tablo, aes(x = yil, y = toplam_sebep)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   scale_x_continuous(breaks = toplam_sebep_tablo$yil)
+
+
+print(tr_intihar_cinsiyet_erkek)
+print(tr_intihar_cinsiyet_kadin)
+
+library(dplyr)
+
+# İki tabloyu satır bazında toplamak
+birlesik_tablo <- tr_intihar_cinsiyet_kadin %>%
+  mutate(toplam_sebep_kadin = rowSums(select(., -yil))) %>%
+  inner_join(tr_intihar_cinsiyet_erkek %>% 
+               mutate(toplam_sebep_erkek = rowSums(select(., -yil))), by = "yil") %>%
+  select(yil, toplam_sebep_kadin, toplam_sebep_erkek)
+
+# Toplam sebepleri içeren tabloyu yazdır
+print(birlesik_tablo)
+
+# Kadın ve erkek intihar sayılarını topla
+toplam_tablo <- tr_intihar_cinsiyet_kadin %>%
+  inner_join(tr_intihar_cinsiyet_erkek, by = "yil") %>%
+  mutate(
+    istanbul = istanbul.x + istanbul.y,
+    `bati marmara` = `bati marmara.x` + `bati marmara.y`,
+    ege = ege.x + ege.y,
+    `dogu marmara` = `dogu marmara.x` + `dogu marmara.y`,
+    `bati anadolu` = `bati anadolu.x` + `bati anadolu.y`,
+    akdeniz = akdeniz.x + akdeniz.y,
+    `orta anadolu` = `orta anadolu.x` + `orta anadolu.y`,
+    `bati karadeniz` = `bati karadeniz.x` + `bati karadeniz.y`,
+    `dogu karadeniz` = `dogu karadeniz.x` + `dogu karadeniz.y`,
+    `kuzeydogu anadolu` = `kuzeydogu anadolu.x` + `kuzeydogu anadolu.y`,
+    `ortadogu anadolu` = `ortadogu anadolu.x` + `ortadogu anadolu.y`,
+    `güneydogu anadolu` = `güneydogu anadolu.x` + `güneydogu anadolu.y`
+  ) %>%
+  select(yil, istanbul, `bati marmara`, ege, `dogu marmara`, `bati anadolu`, akdeniz, `orta anadolu`, `bati karadeniz`, `dogu karadeniz`, `kuzeydogu anadolu`, `ortadogu anadolu`, `güneydogu anadolu`)
+
+# Yeniden düzenlenmiş tabloyu yazdır
+print(toplam_tablo)
+
+print(toplamnufus)
+
+
+
+
+
+
+
