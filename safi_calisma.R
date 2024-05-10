@@ -255,6 +255,34 @@ print(toplamnufus)
 
 
 
+# Satırda yıllar, sütünde bölgeler olan iki tablodaki değerleri birbirine bölme
+bolen_tablo <- as.data.frame(matrix(NA, ncol = length(unique(toplamnufus$yil)) + 1, nrow = nrow(toplamnufus)))
+
+# İlk sütun yılları içerecek
+bolen_tablo[, 1] <- toplamnufus$yil
+
+# Bölgelerin adlarını belirle
+bolgeler <- c("istanbul", "bati marmara", "ege", "dogu marmara", "bati anadolu", "akdeniz", "orta anadolu", "bati karadeniz", "dogu karadeniz", "kuzeydogu anadolu", "ortadogu anadolu", "güneydogu anadolu")
+
+# Her bir bölge için işlemi gerçekleştirme
+for (i in 1:length(bolgeler)) {
+  bolge <- bolgeler[i]
+  
+  # İlgili bölgeye ait nüfus değerlerini al
+  nufus <- toplamnufus[[bolge]]
+  
+  # İlgili bölgeye ait intihar sayılarını al
+  intihar_sayilari <- toplam_tablo[[bolge]]
+  
+  # Bölme işlemi
+  bolen_tablo[, i + 1] <- as.numeric(gsub(",", "", nufus)) / as.numeric(gsub(",", "", intihar_sayilari))
+}
+
+# Sütun isimlerini güncelle
+colnames(bolen_tablo) <- c("yil", bolgeler)
+
+# Yeni tabloyu yazdırma
+print(bolen_tablo)
 
 
 
