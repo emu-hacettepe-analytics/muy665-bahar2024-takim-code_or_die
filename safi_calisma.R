@@ -187,6 +187,54 @@ ggplot(veri_long, aes(x = factor(yil), y = intihar_sayisi, fill = bolge)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+# Kadın ve erkek intihar verilerini birleştirme
+tr_intihar_cinsiyet <- bind_rows(
+  mutate(tr_intihar_cinsiyet_kadin, cinsiyet = "Kadın"),
+  mutate(tr_intihar_cinsiyet_erkek, cinsiyet = "Erkek")
+)
+
+# Veriyi uzun formata dönüştürme
+veri_long <- pivot_longer(tr_intihar_cinsiyet, -c(yil, cinsiyet), names_to = "bolge", values_to = "intihar_sayisi")
+
+# Birleştirilmiş sütun grafiği oluşturma
+ggplot(veri_long, aes(x = factor(yil), y = intihar_sayisi, fill = bolge)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Yıllara Göre Bölgelerdeki Kadın ve Erkek Intihar Sayıları",
+       x = "Yıl",
+       y = "Intihar Sayısı",
+       fill = "Bölgeler") +
+  facet_wrap(~ cinsiyet) +  # cinsiyete göre ayrı sütunlar oluşturma
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Kadın ve erkek intihar verilerini toplamak
+tr_intihar_toplam <- bind_rows(
+  mutate(tr_intihar_cinsiyet_kadin, cinsiyet = "Kadın"),
+  mutate(tr_intihar_cinsiyet_erkek, cinsiyet = "Erkek")
+) %>%
+  group_by(yil, cinsiyet) %>%
+  summarize(toplam_intihar = sum(!!!rlang::syms(names(.)[!names(.) %in% c("yil", "cinsiyet")])))
+
+# Veriyi uzun formata dönüştürme
+veri_long <- pivot_wider(tr_intihar_toplam, names_from = cinsiyet, values_from = toplam_intihar)
+
+# Sütun grafiği oluşturma
+ggplot(veri_long, aes(x = factor(yil), y = Kadın, fill = factor(Kadın > Erkek))) +
+  geom_col(aes(y = Kadın), position = "dodge", color = "black", fill = "lightblue") +
+  geom_col(aes(y = Erkek), position = "dodge", color = "black", fill = "lightgreen") +
+  labs(title = "Yıllara Göre Kadın ve Erkek Toplam Intihar Sayıları",
+       x = "Yıl",
+       y = "Toplam Intihar Sayısı",
+       fill = "Cinsiyet",
+       caption = "Light blue: Kadın, Light green: Erkek") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
 # Veri setini uzun formata dönüştür erkek
 veri_long <- tidyr::pivot_longer(tr_intihar_sebep, -yil, names_to = "bolge", values_to = "intihar_sayisi")
 
@@ -216,6 +264,8 @@ ggplot(toplam_sebep_tablo, aes(x = yil, y = toplam_sebep)) +
 
 print(tr_intihar_cinsiyet_erkek)
 print(tr_intihar_cinsiyet_kadin)
+
+print(tr_intihar_toplam)
 
 library(dplyr)
 
@@ -284,6 +334,111 @@ colnames(bolen_tablo) <- c("yil", bolgeler)
 # Yeni tabloyu yazdırma
 print(bolen_tablo)
 
+library(ggplot2)
+
+# Veriyi kullanarak sütun grafiği oluşturma
+ggplot(data = tr_intihar_toplam, aes(x = as.factor(yil), y = toplam_intihar, fill = cinsiyet)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Yıllara Göre Kadın ve Erkek Toplam Intihar Sayıları",
+       x = "Yıl",
+       y = "Toplam Intihar Sayısı",
+       fill = "Cinsiyet") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+library(ggplot2)
+
+# Toplam Türkiye nüfus grafiği
+ggplot(data = toplamnufus, aes(x = as.factor(yil), y = nufus)) +
+  geom_line() +
+  labs(title = "Yıllara Göre Toplam Türkiye Nüfusu",
+       x = "Yıl",
+       y = "Nüfus") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Toplam intihar sayıları grafiği
+ggplot(data = toplam_tablo, aes(x = as.factor(yil), y = toplam_intihar)) +
+  geom_line() +
+  labs(title = "Yıllara Göre Toplam Intihar Sayıları",
+       x = "Yıl",
+       y = "Toplam Intihar Sayısı") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Box plot oluşturma
+box_data <- merge(toplam_tablo, toplamnufus, by = "yil")
+ggplot(data = box_data, aes(x = as.factor(yil), y = nufus / toplam_intihar)) +
+  geom_boxplot() +
+  labs(title = "Yıllara Göre Nüfus/Intihar Oranı",
+       x = "Yıl",
+       y = "Nüfus/Intihar Oranı") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+library(ggplot2)
+
+# Veri çerçevesini uzun formata dönüştürme
+veri_long <- tidyr::pivot_longer(toplam_tablo, -yil, names_to = "bolge", values_to = "intihar_sayisi")
+
+# Box plot oluşturma
+ggplot(veri_long, aes(x = factor(yil), y = intihar_sayisi, fill = bolge)) +
+  geom_boxplot() +
+  labs(title = "Yıllara Göre Bölgelerdeki Intihar Sayıları",
+       x = "Yıl",
+       y = "Intihar Sayısı",
+       fill = "Bölgeler") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Yıllara göre toplam intihar sayılarını topla
+toplam_intihar_toplam <- toplam_intihar %>%
+  group_by(yil) %>%
+  summarise(toplam_intihar = sum(intihar_sayisi))
+
+# Box plot oluşturma
+ggplot(toplam_intihar_toplam, aes(x = factor(yil), y = toplam_intihar)) +
+  geom_boxplot() +
+  labs(title = "Yıllara Göre Toplam Intihar Sayıları",
+       x = "Yıl",
+       y = "Toplam Intihar Sayısı") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+past_year = 2013
+p <- toplam_tablo %>% filter(yil == past_year & !is.na(yil)) %>% ggplot(aes(bolgeler,
+                                                                          intihar_sayilari))
+p + geom_boxplot() + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
+past_year = 2013
+p <- toplam_tablo %>% filter(yil == past_year & !is.na(yil)) %>% ggplot(aes(x = bolgeler, y = intihar_sayilari))
+p + geom_boxplot() + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+print(toplam_tablo)
+
+
+veri_sirali <- toplam_tablo %>%
+  summarise_all(median) %>%
+  t() %>%
+  as.data.frame() %>%
+  mutate(bolge = rownames(.)) %>%
+  select(bolge, everything()) %>%
+  pivot_longer(cols = -bolge, names_to = "yil", values_to = "medyan") %>%
+  arrange(medyan)
+
+veri_sirali
+
+# Veriyi uzun formata dönüştür
+veri_long <- tidyr::pivot_longer(veri_sirali, cols = -yil, names_to = "bolge", values_to = "intihar_sayilari")
+
+# Grafik oluştur
+ggplot(veri_long, aes(x = bolge, y = intihar_sayilari)) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 
 
