@@ -10,11 +10,11 @@ sidebar: false
 :::
 :::
 
-> *Proje Sayfamıza Hoş Geldiniz.*
+> *Code or Die ekibi gururla sunar...*
 
-Hi! :smile: Welcome to our project webpage (silebiliriz).
+Bir şeyleri kodlayamazsak ölecekmişiz gibi hissettiğimiz grubumuzun sayfasına hoş geldiniz.
 
-komikli bir yazı yazalım.
+Bu sayfada sizlere Hacettepe Üniversitesi Mühendislik Yönetimi Yüksek Lisans Programı kapsamında MÜY665 kodlu İş Analitiği dersinde öğrendiğimiz analiz araçlarını kullanarak yaptığımız çalışmaları sizlerle paylaşıyoruz.
 
 ![](code.gif){fig-align="center" width="50%" heigh="50%"}
 
