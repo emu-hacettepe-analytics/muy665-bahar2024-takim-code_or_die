@@ -4,9 +4,12 @@ styles:
 sidebar: false
 ---
 
-::: {style="text-align: center"} ::: {style="text-align: justify"} ::: {style="font-family: fantasy; font-size: 50px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 39.6px; color: #333333;"} **Code or Die** ::: :::
+::: {style="text-align: center"}
+::: {style="font-family: fantasy; font-size: 50px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 39.6px; color: #333333;"}
+**Code or Die**
+:::
+:::
 
-> *Proje Sayfamıza Hoş Geldiniz.*
 
 *Projemizle ilgili güncellemelerden haberdar olmak için bu alanı takip edin.*
 
