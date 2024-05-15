@@ -40,9 +40,9 @@ TÜİK araştırmalarından elde edilen verilerle toplamda 3 farklı veri seti o
 
 TÜİK'ten aldığımız 2013-2022 yılları arası Türkiye'nin bölgelere ve cinsiyetlere göre yıllık intihar sayıları üzerine yaptığımız analiz çalışmasına dair bulguları aşağıda bulabilirsiniz.
 
-### Grafik 1 : Yıllara Göre Toplam İntihar Sayısı {style="text-align: center"}
+### Grafik 1 : Yıllara Göre Toplam İntihar Sayısı
 
-![](grafikler/toplamintiharsayisi.jpeg){fig-align="center" width="900"}
+![](grafikler/toplamintiharsayisi.jpeg){fig-align="center" width="1000"}
 
 Türkiye'deki senelik genel intihar sayılarına bakıldığında;
 
@@ -56,9 +56,31 @@ Türkiye'deki senelik genel intihar sayılarına bakıldığında;
 
 Genel olarak, 2019 yılından itibaren intihar sayılarında belirgin bir artış trendi olduğu görülmektedir. Bu artışın sebepleri arasında ekonomik kriz, sosyal ya da psikolojik faktörler yer alabileceği düşünülmekle birlikte özellikle 2020 yılı itibarıyla COVID-19 pandemisinin etkilerinin de bu artışa katkıda bulunmuş olabileceği öngörülmektedir.
 
-### Grafik 2 : Yıllara Göre Kadın - Erkek Toplam İntihar Sayısı {style="text-align: center"}
+### Grafik 2 : Bölgelere Göre İntihar Sayısı
 
-![](grafikler/toplam.png){fig-align="center" width="900"}
+![](grafikler/combine.png){fig-align="center" width="900"}\
+
+### Grafik 3 : Sebeplerine Göre Yıllık İntihar Sayısı ve Kümülatif Dağılımı
+
+![](grafikler/sebeplerinegöreyillikintihar.jpeg){fig-align="center" width="1171"}\
+
+![](grafikler/kümülatif.png){fig-align="center" width="500"}\
+
+Bu grafikte, Türkiye'deki intihar vakalarının sebeplerine göre yıllara göre dağılımı gösterilmektedir. Sebeplerine göre yıllık intihar sayıları incelendiğinde,
+
+-   2013-2016 Dönemi: Bu dönemde "aile geçimsizliği" ve "hastalık" sebeplerine bağlı intiharlar öne çıkmaktadır. "Geçim zorluğu" ve "diğer" sebepler de önemli bir yer tutmaktadır.
+
+-   2017-2018 Dönemi: Bu yıllarda da benzer bir trend gözlemlenmekte, "aile geçimsizliği" ve "hastalık" kategorileri baskın kalmaktadır. Ancak "geçim zorluğu" sebebi de dikkate değer bir artış göstermektedir.
+
+-   2019-2020 Dönemi: Bu dönemde intihar sebeplerinde belirgin bir artış gözlemlenmektedir. Özellikle "geçim zorluğu" ve "hastalık" kategorilerinde artış görülmektedir.
+
+-   2021-2022 Dönemi: 2021 yılında "aile geçimsizliği" sebebi ile intiharlar zirve yapmıştır. 2022 yılında ise tüm kategorilerde hafif bir azalma gözlemlenmektedir.
+
+Bu bilgiler ışığında "Bilinmeyen" sebep grubunun azaldığı, yani yıllar ilerledikçe daha fazla data toplandığı göze çarpmaktadır. Bunun yanı sıra diğer intihar nedenleri benzer bir dağılım göstermekle birlikte, genel olarak "diğer", "hastalık", ve "geçim sıkıntısı" nedenleri ilk sırada bulunmaktadır. "Hastalık" nedeniyle intihar sayısının 2020 Covid salgını ile birlikte arttığı görülmektedir. Bunun yanı sıra, "öğrenim başarısızlığı" nedeniyle gerçekleşen intiharlar ilk yıllarda azalış gösterse de son yıllarda artmış, bunun nedeninin ise yıl geçtikçe artan enflasyon ve ekonomik zorluklar sonucu oluşan gelecek kaygısı olabileceği düşünülmektedir. "Ticari başarısızlık" nedeniyle gerçekleşen intihar sayısının ise ilk yıllarda azalırken son yıllarda sabit olduğu görülmektedir.
+
+### Grafik 4 : Yıllara Göre Kadın - Erkek Toplam İntihar Sayısı
+
+![](grafikler/toplam.png){fig-align="center" width="900"} ![](grafikler/pie.png){fig-align="center" width="500"}
 
 Bu grafikte, Türkiye'de 2013-2022 yılları arasında cinsiyete göre toplam intihar sayıları gösterilmektedir. Grafikte kadın ve erkek intihar sayılarının yıllara göre dağılımı ve değişimi detaylı olarak incelendiğinde;
 
@@ -76,24 +98,6 @@ Erkeklerin intihar oranları kadınlardan belirgin bir şekilde daha yüksektir.
 
 COVID-19 pandemisi, her iki cinsiyet için de stres ve kaygı seviyelerini artırmış olabilmektedir. Özellikle 2020-2021 yıllarında intihar oranlarının artmasında pandemi etkisinin önemli bir rol oynadığı düşünülmektedir.
 
-### Grafik 3 : Sebeplerine Göre Yıllık İntihar Sayısı {style="text-align: center"}
+### Grafik 3 : İntihar Sayılarının Türkiye Nüfusuna Oranı
 
-![](grafikler/sebeplerinegöreyillikintihar.jpeg){fig-align="center" width="1171"}\
-
-Bu grafikte, Türkiye'deki intihar vakalarının sebeplerine göre yıllara göre dağılımı gösterilmektedir. Sebeplerine göre yıllık intihar sayıları incelendiğinde,
-
--   2013-2016 Dönemi: Bu dönemde "aile geçimsizliği" ve "hastalık" sebeplerine bağlı intiharlar öne çıkmaktadır. "Geçim zorluğu" ve "diğer" sebepler de önemli bir yer tutmaktadır.
-
--   2017-2018 Dönemi: Bu yıllarda da benzer bir trend gözlemlenmekte, "aile geçimsizliği" ve "hastalık" kategorileri baskın kalmaktadır. Ancak "geçim zorluğu" sebebi de dikkate değer bir artış göstermektedir.
-
--   2019-2020 Dönemi: Bu dönemde intihar sebeplerinde belirgin bir artış gözlemlenmektedir. Özellikle "geçim zorluğu" ve "hastalık" kategorilerinde artış görülmektedir.
-
--   2021-2022 Dönemi: 2021 yılında "aile geçimsizliği" sebebi ile intiharlar zirve yapmıştır. 2022 yılında ise tüm kategorilerde hafif bir azalma gözlemlenmektedir.
-
-Bu bilgiler ışığında "Bilinmeyen" sebep grubunun azaldığı, yani yıllar ilerledikçe daha fazla data toplandığı göze çarpmaktadır. Bunun yanı sıra diğer intihar nedenleri benzer bir dağılım göstermekle birlikte, genel olarak "diğer", "hastalık", ve "geçim sıkıntısı" nedenleri ilk sırada bulunmaktadır. "Hastalık" nedeniyle intihar sayısının 2020 Covid salgını ile birlikte arttığı görülmektedir. Bunun yanı sıra, "öğrenim başarısızlığı" nedeniyle gerçekleşen intiharlar ilk yıllarda azalış gösterse de son yıllarda artmış, bunun nedeninin ise yıl geçtikçe artan enflasyon ve ekonomik zorluklar sonucu oluşan gelecek kaygısı olabileceği düşünülmektedir. "Ticari başarısızlık" nedeniyle gerçekleşen intihar sayısının ise ilk yıllarda azalırken son yıllarda sabit olduğu görülmektedir.
-
-# Sonuçlar ve Ana Çıkarımlar
-
-### Grafik 4 : Türkiye Nüfusuna Göre İntihar Yoğunluğu {style="text-align: center"}
-
-![](grafikler/box.png){fig-align="center" width="900"}\
+![](grafikler/nufus.png){fig-align="center" width="900"}
