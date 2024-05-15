@@ -83,7 +83,7 @@ Bu grafiklerde, Türkiye'de 2013-2022 yılları arasında cinsiyete göre toplam
 
 ![](grafikler/sebeplerinegöreyillikintihar.jpeg){fig-align="center" width="1171"}
 
-![](grafikler/kümülatif.png){fig-align="center" width="500"}
+![](grafikler/kümülatif.png){fig-align="center" width="700"}
 
 Bu grafiklerde, Türkiye'deki intihar vakalarının sebeplerine göre yıllara göre dağılımı gösterilmektedir. Sebeplerine göre yıllık intihar sayıları incelendiğinde,
 
