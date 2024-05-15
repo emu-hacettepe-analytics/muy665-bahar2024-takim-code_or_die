@@ -41,4 +41,8 @@ TÜİK'ten elde edilen verilerle toplamda 4 farklı veri seti oluşturduk. Bu ve
 
 ## Sonuçlar
 
-Burada key takeways verilmelidir. En az 3 en fazla 5 madde ile çarpıcı sonuçlar sunulmalıdır.
+1. 2019 yılından itibaren intihar sayılarında belirgin bir artış trendi gözlemlenmekte olup, 2020 yılında COVID-19 pandemisinin etkisiyle ciddi bir artış yaşanmıştır; 2021'de zirve yapan intihar sayıları, 2022'de hafif bir düşüş göstermiştir.
+2. Erkeklerin intihar oranları kadınlara kıyasla belirgin şekilde daha yüksek olup, bu durumun ekonomik baskılar, işsizlik ve sosyal rollerden kaynaklandığı düşünülmektedir; kadın intihar sayıları genellikle belirli bir seviyede kalmaktadır.
+3. İntihar sebepleri arasında "aile geçimsizliği", "hastalık" ve "geçim zorluğu" öne çıkmakta olup, 2020 yılında hastalık nedeniyle gerçekleşen intiharlar, COVID-19 salgınıyla ilişkilendirilmektedir; ekonomik krizler ve geçim zorlukları intihar vakalarının artmasında önemli bir etken olmuştur.
+4. Türkiye'nin farklı bölgelerinde intihar sayıları ve oranları ekonomik, sosyal ve kültürel faktörlere bağlı olarak farklılık göstermektedir; Ege Bölgesi, İstanbul ve Akdeniz Bölgeleri en yüksek intihar sayısına sahipken, Doğu Karadeniz ve Kuzeydoğu Anadolu Bölgeleri en düşük intihar sayılarına sahiptir. Yoğunluk açısından ise genel olarak Ege ve Batı Marmara Bölgeleri başı çekerken İstanbul ve Doğu Karadeniz en düşük intihar yoğunluğuna sahiptir.
+5. Bölgelerdeki artış ve düşüşler, sosyal, ekonomik, kültürel ve çevresel faktörlerin karmaşık bir etkileşimi sonucu ortaya çıkmakta olup bölgelerin kendine özgü dinamikleri dikkate alınarak detaylı bir analiz yapılması ve bu analizler doğrultusunda eyleme geçilmesi intihar sayılarının artışını önlemede hayati önem taşımaktadır.
