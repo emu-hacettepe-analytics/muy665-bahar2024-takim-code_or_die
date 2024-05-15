@@ -35,6 +35,7 @@ TÜİK araştırmalarından elde edilen verilerle toplamda 3 farklı veri seti o
 1.  [2013-2022 arası Türkiye'de intihar eden kadın sayısı](tr_intihar_cinsiyet_kadin.xlsx){.download-button}
 2.  [2013-2022 arası Türkiye'de intihar eden erkek sayısı](tr_intihar_cinsiyet_erkek.xlsx){.download-button}
 3.  [2013-2022 arası Türkiye'de intihar eden kişilerin intihar sebepleri](tr_intihar_sebep.xlsx){.download-button}
+4.  [2013-2022 arası Türkiye'nin bölgesel nüfusu](toplamnufus.xlsx){.download-button}
 
 # Analiz
 
