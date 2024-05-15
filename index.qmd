@@ -32,7 +32,7 @@ Bu çalışmada, MUY660-İş Analitiği ders içeriğinin analitik yaklaşımlar
 
 ## Veri Seti Hakkında Özet Bilgi
 
-TÜİK araştırmalarından elde edilen verilerle toplamda 3 farklı veri seti oluşturduk. Bu veri setleri, 2013-2022 yılları arasında Türkiye genelinde toplam 9 farklı bölge ve metropol olan İstanbul'u ayrı incelediğimiz, toplamda 10 değişken içeren veri setlerini içermektedir. Bu veri setlerini ayrıca cinsiyet ayrımı yaparak 2 grupta inceledik. Son olarak, bu 10 yıl içindeki intiharların sebeplerini derlediğimiz bir veri seti oluşturduk:
+TÜİK'ten elde edilen verilerle toplamda 4 farklı veri seti oluşturduk. Bu veri setlerinin ilkinde, 2013-2022 yılları arasında Türkiye genelindeki kadın ve erkek intihar sayılarını ve nedenlerini içeren veriler, diğer veri setinde ise toplam 9 farklı bölge ve metropol olan İstanbul'u ayrı incelediğimiz, toplamda 10 bölgenin intihar sayı ve nedenlerini içeren veriler incelenmiştir.
 
 1.  [2013-2022 arası Türkiye'de intihar eden kadın sayısı](tr_intihar_cinsiyet_kadin.xlsx){.download-button}
 2.  [2013-2022 arası Türkiye'de intihar eden erkek sayısı](tr_intihar_cinsiyet_erkek.xlsx){.download-button}

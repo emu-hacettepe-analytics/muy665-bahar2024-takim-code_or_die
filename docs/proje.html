@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Code or Die Takımı Analitik Labı – proje</title>
+<title>Code or Die Takımı Analitik Labı</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -71,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Code or Die Takımı Analitik Labı</span>
     </a>
@@ -85,34 +92,34 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Ana Sayfa</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Ana Sayfa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./takim.html" rel="" target="">
- <span class="menu-text">Takım Üyeleri</span></a>
+    <a class="nav-link" href="./takim.html"> 
+<span class="menu-text">Takım Üyeleri</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./portfolyo.html" rel="" target="">
- <span class="menu-text">Portfolyo</span></a>
+    <a class="nav-link" href="./portfolyo.html"> 
+<span class="menu-text">Portfolyo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./proje.html" rel="" target="" aria-current="page">
- <span class="menu-text">Proje</span></a>
+    <a class="nav-link active" href="./proje.html" aria-current="page"> 
+<span class="menu-text">Proje</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-    <a href="https://github.com/emu-hacettepe-analytics/muy665-bahar2024-takim-code_or_die" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+    <a href="https://github.com/emu-hacettepe-analytics/muy665-bahar2024-takim-code_or_die" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
@@ -124,20 +131,21 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#analiz" id="toc-analiz" class="nav-link" data-scroll-target="#analiz">Analiz</a>
   <ul class="collapse">
   <li><a href="#grafik-1-yıllara-göre-toplam-intihar-sayısı" id="toc-grafik-1-yıllara-göre-toplam-intihar-sayısı" class="nav-link" data-scroll-target="#grafik-1-yıllara-göre-toplam-intihar-sayısı">Grafik 1 : Yıllara Göre Toplam İntihar Sayısı</a></li>
-  <li><a href="#grafik-2-bölgelere-göre-intihar-sayısı" id="toc-grafik-2-bölgelere-göre-intihar-sayısı" class="nav-link" data-scroll-target="#grafik-2-bölgelere-göre-intihar-sayısı">Grafik 2 : Bölgelere Göre İntihar Sayısı</a></li>
+  <li><a href="#grafik-2-yıllara-göre-kadın---erkek-toplam-intihar-sayısı" id="toc-grafik-2-yıllara-göre-kadın---erkek-toplam-intihar-sayısı" class="nav-link" data-scroll-target="#grafik-2-yıllara-göre-kadın---erkek-toplam-intihar-sayısı">Grafik 2 : Yıllara Göre Kadın - Erkek Toplam İntihar Sayısı</a></li>
   <li><a href="#grafik-3-sebeplerine-göre-yıllık-intihar-sayısı-ve-kümülatif-dağılımı" id="toc-grafik-3-sebeplerine-göre-yıllık-intihar-sayısı-ve-kümülatif-dağılımı" class="nav-link" data-scroll-target="#grafik-3-sebeplerine-göre-yıllık-intihar-sayısı-ve-kümülatif-dağılımı">Grafik 3 : Sebeplerine Göre Yıllık İntihar Sayısı ve Kümülatif Dağılımı</a></li>
-  <li><a href="#grafik-4-yıllara-göre-kadın---erkek-toplam-intihar-sayısı" id="toc-grafik-4-yıllara-göre-kadın---erkek-toplam-intihar-sayısı" class="nav-link" data-scroll-target="#grafik-4-yıllara-göre-kadın---erkek-toplam-intihar-sayısı">Grafik 4 : Yıllara Göre Kadın - Erkek Toplam İntihar Sayısı</a></li>
-  <li><a href="#grafik-3-intihar-sayılarının-türkiye-nüfusuna-oranı" id="toc-grafik-3-intihar-sayılarının-türkiye-nüfusuna-oranı" class="nav-link" data-scroll-target="#grafik-3-intihar-sayılarının-türkiye-nüfusuna-oranı">Grafik 3 : İntihar Sayılarının Türkiye Nüfusuna Oranı</a></li>
+  <li><a href="#grafik-4-bölgelere-göre-intihar-sayısı" id="toc-grafik-4-bölgelere-göre-intihar-sayısı" class="nav-link" data-scroll-target="#grafik-4-bölgelere-göre-intihar-sayısı">Grafik 4 : Bölgelere Göre İntihar Sayısı</a></li>
+  <li><a href="#grafik-5-bölgesel-intihar-sayılarının-bölge-nüfusuna-oranı" id="toc-grafik-5-bölgesel-intihar-sayılarının-bölge-nüfusuna-oranı" class="nav-link" data-scroll-target="#grafik-5-bölgesel-intihar-sayılarının-bölge-nüfusuna-oranı">Grafik 5 : Bölgesel İntihar Sayılarının Bölge Nüfusuna Oranı</a></li>
   </ul></li>
   </ul>
 </nav>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 
 
@@ -150,34 +158,34 @@ ul.task-list li input[type="checkbox"] {
 <section id="proje-genel-bakış-ve-kapsamı" class="level1">
 <h1>Proje Genel Bakış ve Kapsamı</h1>
 <p>İntihar psikolojik, sosyal, genetik ve biyolojik oluşumların birleşimi sonucunda ortaya çıkar. Depresyon, anksiyete, ruhsal problemler, travmatik yaşam olayları, madde bağımlılığı, aile içi çatışmalar, sosyal izolasyon ve ekonomik zorluklar gibi pek çok unsur intiharın oluşmasında etken olabilir.</p>
-<p>Bu projede 2013-2022 yılları arasında Türkiye’de yaşanan intihar oranları kadın-erkek, intihar sebepleri ve sayıları üzerinden bölge bölge incelenmiştir. Veriler İstanbul, Batı Marmara, Ege, Doğu Marmara, Batı Anadolu, Akdeniz, Orta Anadolu, Batı Karadeniz, Doğu Karadeniz, Kuzeydoğu Anadolu, Ortadoğu Anadolu ve Güneydoğu Anadolu bölgelerinden elde edilen sonuçlarla oluşturulmuştur.</p>
+<p>Bu projede 2013-2022 yılları arasında Türkiye’de yaşanan intihar oranları, cinsiyet ve intihar sebepleri açısından bölgesel olarak incelenmiştir. Veriler TÜİK’in belirlediği kategorizasyon doğrultusunda İstanbul, Batı Marmara, Ege, Doğu Marmara, Batı Anadolu, Akdeniz, Orta Anadolu, Batı Karadeniz, Doğu Karadeniz, Kuzeydoğu Anadolu, Ortadoğu Anadolu ve Güneydoğu Anadolu bölgelerinden elde edilen sonuçlarla oluşturulmuştur.</p>
 </section>
 <section id="tercih-sebebi" class="level1">
 <h1>Tercih Sebebi</h1>
-<p>Biz kod yazamadığımız için intihar ediyoruz, peki Türkiye’de insanlar neden intihar ediyor? Biz projemizde bunu inceliyoruz.</p>
+<p>Biz kod yazamadığımız için intihar etmeyi düşünüyoruz, peki Türkiye’de insanlar neden intihar ediyor? Biz projemizde bunu inceliyoruz.</p>
 </section>
 <section id="veri-kaynağı" class="level1">
 <h1>Veri Kaynağı</h1>
-<p>Veriler Türkiye İstatistik Kurumu’ndan alınmıştır.</p>
+<p>Veriler Türkiye İstatistik Kurumu’ndan (TÜİK) alınmıştır.</p>
 <p>TÜİK. (2023, Şubat). Ölüm ve Ölüm Nedeni İstatistikleri, 2021. TÜİK Veri Portalı. Erişim Adresi: <a href="https://data.tuik.gov.tr/Bulten/Index?p=Olum-ve-Olum-Nedeni-Istatistikleri-2021-45715" class="uri">https://data.tuik.gov.tr/Bulten/Index?p=Olum-ve-Olum-Nedeni-Istatistikleri-2021-45715</a></p>
 </section>
 <section id="veri-hakkında-genel-bilgiler" class="level1">
 <h1>Veri Hakkında Genel Bilgiler</h1>
-<p>TÜİK araştırmalarından elde edilen verilerle toplamda 3 farklı veri seti oluşturduk. Bu veri setleri, 2013-2022 yılları arasında Türkiye genelinde toplam 9 farklı bölge ve metropol olan İstanbul’u ayrı incelediğimiz, toplamda 10 değişken içeren veri setlerini içermektedir. Bu veri setlerini ayrıca cinsiyet ayrımı yaparak 2 grupta inceledik. Son olarak, bu 10 yıl içindeki intiharların sebeplerini derlediğimiz bir veri seti oluşturduk:</p>
+<p>TÜİK’ten elde edilen verilerle toplamda 4 farklı veri seti oluşturduk. Bu veri setlerinin ilkinde, 2013-2022 yılları arasında Türkiye genelindeki kadın ve erkek intihar sayılarını ve nedenlerini içeren veriler, diğer veri setinde ise toplam 9 farklı bölge ve metropol olan İstanbul’u ayrı incelediğimiz, toplamda 10 bölgenin intihar sayı ve nedenlerini içeren veriler incelenmiştir.</p>
 <ol type="1">
 <li><a href="tr_intihar_cinsiyet_kadin.xlsx" class="download-button">2013-2022 arası Türkiye’de intihar eden kadın sayısı</a></li>
 <li><a href="tr_intihar_cinsiyet_erkek.xlsx" class="download-button">2013-2022 arası Türkiye’de intihar eden erkek sayısı</a></li>
 <li><a href="tr_intihar_sebep.xlsx" class="download-button">2013-2022 arası Türkiye’de intihar eden kişilerin intihar sebepleri</a></li>
+<li>Safinaz</li>
 </ol>
 </section>
 <section id="analiz" class="level1">
 <h1>Analiz</h1>
-<p>TÜİK’ten aldığımız 2013-2022 yılları arası Türkiye’nin bölgelere ve cinsiyetlere göre yıllık intihar sayıları üzerine yaptığımız analiz çalışmasına dair bulguları aşağıda bulabilirsiniz.</p>
 <section id="grafik-1-yıllara-göre-toplam-intihar-sayısı" class="level3">
 <h3 class="anchored" data-anchor-id="grafik-1-yıllara-göre-toplam-intihar-sayısı">Grafik 1 : Yıllara Göre Toplam İntihar Sayısı</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="grafikler/toplamintiharsayisi.jpeg" class="img-fluid figure-img" width="1000"></p>
+<p><img src="grafikler/toplamintiharsayisi.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1000"></p>
 </figure>
 </div>
 <p>Türkiye’deki senelik genel intihar sayılarına bakıldığında;</p>
@@ -186,50 +194,87 @@ ul.task-list li input[type="checkbox"] {
 <li><p>2017-2018 Dönemi: 2017 yılı itibarıyla intihar sayısında hafif bir düşüş yaşanmış ve 2018 yılında tekrar yaklaşık aynı seviyelerde seyretmiştir. Bu dönemde ciddi bir artış ya da azalma gözlemlenmemektedir.</p></li>
 <li><p>2019-2020 Dönemi: 2019 yılıyla birlikte intihar sayılarında hızlı bir artış gözlemlenmektedir. 2019 yılında başlayan bu artış, 2020 yılında belirgin bir şekilde hızlanmış ve bu yıl intihar sayısı önemli ölçüde artmıştır.</p></li>
 <li><p>2021-2022 Dönemi: 2021 yılında intihar sayısı en yüksek seviyeye ulaşmış, ancak 2022 yılında bu sayı biraz azalmıştır. Buna rağmen, 2022 yılında intihar sayıları hala 2010’lu yılların başına kıyasla oldukça yüksektir.</p></li>
+<li><p>Genel olarak, 2019 yılından itibaren intihar sayılarında belirgin bir artış trendi olduğu görülmektedir. Bu artışın sebepleri arasında ekonomik kriz, sosyal ya da psikolojik faktörler yer alabileceği düşünülmekle birlikte özellikle 2020 yılı itibarıyla COVID-19 pandemisinin etkilerinin de bu artışa katkıda bulunmuş olabileceği öngörülmektedir.</p></li>
 </ul>
-<p>Genel olarak, 2019 yılından itibaren intihar sayılarında belirgin bir artış trendi olduğu görülmektedir. Bu artışın sebepleri arasında ekonomik kriz, sosyal ya da psikolojik faktörler yer alabileceği düşünülmekle birlikte özellikle 2020 yılı itibarıyla COVID-19 pandemisinin etkilerinin de bu artışa katkıda bulunmuş olabileceği öngörülmektedir.</p>
 </section>
-<section id="grafik-2-bölgelere-göre-intihar-sayısı" class="level3">
-<h3 class="anchored" data-anchor-id="grafik-2-bölgelere-göre-intihar-sayısı">Grafik 2 : Bölgelere Göre İntihar Sayısı</h3>
-<p><img src="grafikler/combine.png" class="img-fluid" data-fig-align="center" width="900"><br>
-</p>
+<section id="grafik-2-yıllara-göre-kadın---erkek-toplam-intihar-sayısı" class="level3">
+<h3 class="anchored" data-anchor-id="grafik-2-yıllara-göre-kadın---erkek-toplam-intihar-sayısı">Grafik 2 : Yıllara Göre Kadın - Erkek Toplam İntihar Sayısı</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="grafikler/toplam.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="900"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="grafikler/pie.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<p>Bu grafiklerde, Türkiye’de 2013-2022 yılları arasında cinsiyete göre toplam intihar sayıları gösterilmektedir. Grafikte kadın ve erkek intihar sayılarının yıllara göre dağılımı ve değişimi detaylı olarak incelendiğinde;</p>
+<ul>
+<li><p>Erkek intihar sayıları her yıl kadın intihar sayılarından daha yüksektir. Bu durum, erkeklerin intihar etme olasılığının kadınlara göre daha yüksek olduğunu göstermektedir. Kadın intihar sayıları ise yıllar içinde daha az değişkenlik göstermekte ve genellikle belirli bir seviyede kalmaktadır.</p></li>
+<li><p>2013-2018 Dönemi: 2013-2018 yılları arasında erkek intihar sayıları genellikle 2000 civarındayken, kadın intihar sayıları 700-1000 arasında değişmektedir. Bu dönemde büyük dalgalanmalar gözlemlenmemektedir.</p></li>
+<li><p>2019 Yılı: 2019 yılında, özellikle erkek intiharlarında belirgin bir artış gözlemlenmektedir. Bu yıl, erkek intihar sayısı yaklaşık 2500’e yaklaşırken, kadın intihar sayısı ise yine 1000 civarındadır.</p></li>
+<li><p>2020-2021 Dönemi: Bu dönemde hem erkek hem de kadın intihar sayılarında ciddi bir artış gözlemlenmektedir. 2020 yılında erkek intihar sayısı 3000’in üzerine çıkarken, kadın intihar sayısı ise yaklaşık 1200’e yaklaşmıştır.</p></li>
+<li><p>2022 Yılı: 2021 yılına göre 2022 yılında her iki cinsiyet için de intihar sayılarında hafif bir azalma gözlemlenmektedir. Ancak erkek intihar sayıları hala 3000 civarında seyretmektedir.</p></li>
+<li><p>Erkeklerin intihar oranları kadınlardan belirgin bir şekilde daha yüksektir. Erkeklerin daha yüksek intihar oranları, ekonomik baskılar, işsizlik ve sosyal rollerden kaynaklandığı düşünülmektedir. Erkeklerin aile geçiminden sorumlu olma ve başarısızlık korkusu gibi faktörler, intihar riskini artırabilmektedir.</p></li>
+<li><p>Mental sağlık hizmetlerine erişimde yaşanan zorluklar, hem erkek hem de kadınlar için intihar riskini artırsa da erkeklerin yardım arayışında daha az bulunmaları, intihar oranlarının daha yüksek olmasına neden olabilmektedir.</p></li>
+<li><p>COVID-19 pandemisi, her iki cinsiyet için de stres ve kaygı seviyelerini artırmış olabilmektedir. Özellikle 2020-2021 yıllarında intihar oranlarının artmasında pandemi etkisinin önemli bir rol oynadığı düşünülmektedir.</p></li>
+</ul>
 </section>
 <section id="grafik-3-sebeplerine-göre-yıllık-intihar-sayısı-ve-kümülatif-dağılımı" class="level3">
 <h3 class="anchored" data-anchor-id="grafik-3-sebeplerine-göre-yıllık-intihar-sayısı-ve-kümülatif-dağılımı">Grafik 3 : Sebeplerine Göre Yıllık İntihar Sayısı ve Kümülatif Dağılımı</h3>
-<p><img src="grafikler/sebeplerinegöreyillikintihar.jpeg" class="img-fluid" data-fig-align="center" width="1171"><br>
-</p>
-<p><img src="grafikler/kümülatif.png" class="img-fluid" data-fig-align="center" width="500"><br>
-</p>
-<p>Bu grafikte, Türkiye’deki intihar vakalarının sebeplerine göre yıllara göre dağılımı gösterilmektedir. Sebeplerine göre yıllık intihar sayıları incelendiğinde,</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="grafikler/sebeplerinegöreyillikintihar.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1171"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="grafikler/kümülatif.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<p>Bu grafiklerde, Türkiye’deki intihar vakalarının sebeplerine göre yıllara göre dağılımı gösterilmektedir. Sebeplerine göre yıllık intihar sayıları incelendiğinde,</p>
 <ul>
 <li><p>2013-2016 Dönemi: Bu dönemde “aile geçimsizliği” ve “hastalık” sebeplerine bağlı intiharlar öne çıkmaktadır. “Geçim zorluğu” ve “diğer” sebepler de önemli bir yer tutmaktadır.</p></li>
 <li><p>2017-2018 Dönemi: Bu yıllarda da benzer bir trend gözlemlenmekte, “aile geçimsizliği” ve “hastalık” kategorileri baskın kalmaktadır. Ancak “geçim zorluğu” sebebi de dikkate değer bir artış göstermektedir.</p></li>
 <li><p>2019-2020 Dönemi: Bu dönemde intihar sebeplerinde belirgin bir artış gözlemlenmektedir. Özellikle “geçim zorluğu” ve “hastalık” kategorilerinde artış görülmektedir.</p></li>
 <li><p>2021-2022 Dönemi: 2021 yılında “aile geçimsizliği” sebebi ile intiharlar zirve yapmıştır. 2022 yılında ise tüm kategorilerde hafif bir azalma gözlemlenmektedir.</p></li>
+<li><p>Bu bilgiler ışığında “Bilinmeyen” sebep grubunun azaldığı, yani yıllar ilerledikçe daha fazla data toplandığı göze çarpmaktadır. Bunun yanı sıra diğer intihar nedenleri benzer bir dağılım göstermekle birlikte, genel olarak “diğer”, “hastalık”, ve “geçim sıkıntısı” nedenleri ilk sırada bulunmaktadır.</p></li>
+<li><p>“Hastalık” nedeniyle intihar sayısının 2020 Covid salgını ile birlikte arttığı görülmektedir. Bununla birlikte, “öğrenim başarısızlığı” nedeniyle gerçekleşen intiharlar ilk yıllarda azalış gösterse de son yıllarda artmış, bunun nedeninin ise yıl geçtikçe artan enflasyon ve ekonomik zorluklar sonucu oluşan gelecek kaygısı olabileceği düşünülmektedir.</p></li>
+<li><p>“Ticari başarısızlık” nedeniyle gerçekleşen intihar sayısının ise ilk yıllarda azalırken son yıllarda sabit olduğu görülmektedir.</p></li>
 </ul>
-<p>Bu bilgiler ışığında “Bilinmeyen” sebep grubunun azaldığı, yani yıllar ilerledikçe daha fazla data toplandığı göze çarpmaktadır. Bunun yanı sıra diğer intihar nedenleri benzer bir dağılım göstermekle birlikte, genel olarak “diğer”, “hastalık”, ve “geçim sıkıntısı” nedenleri ilk sırada bulunmaktadır. “Hastalık” nedeniyle intihar sayısının 2020 Covid salgını ile birlikte arttığı görülmektedir. Bunun yanı sıra, “öğrenim başarısızlığı” nedeniyle gerçekleşen intiharlar ilk yıllarda azalış gösterse de son yıllarda artmış, bunun nedeninin ise yıl geçtikçe artan enflasyon ve ekonomik zorluklar sonucu oluşan gelecek kaygısı olabileceği düşünülmektedir. “Ticari başarısızlık” nedeniyle gerçekleşen intihar sayısının ise ilk yıllarda azalırken son yıllarda sabit olduğu görülmektedir.</p>
 </section>
-<section id="grafik-4-yıllara-göre-kadın---erkek-toplam-intihar-sayısı" class="level3">
-<h3 class="anchored" data-anchor-id="grafik-4-yıllara-göre-kadın---erkek-toplam-intihar-sayısı">Grafik 4 : Yıllara Göre Kadın - Erkek Toplam İntihar Sayısı</h3>
-<p><img src="grafikler/toplam.png" class="img-fluid" data-fig-align="center" width="900"> <img src="grafikler/pie.png" class="img-fluid" data-fig-align="center" width="500"></p>
-<p>Bu grafikte, Türkiye’de 2013-2022 yılları arasında cinsiyete göre toplam intihar sayıları gösterilmektedir. Grafikte kadın ve erkek intihar sayılarının yıllara göre dağılımı ve değişimi detaylı olarak incelendiğinde;</p>
-<p>Erkek intihar sayıları her yıl kadın intihar sayılarından daha yüksektir. Bu durum, erkeklerin intihar etme olasılığının kadınlara göre daha yüksek olduğunu göstermektedir. Kadın intihar sayıları ise yıllar içinde daha az değişkenlik göstermekte ve genellikle belirli bir seviyede kalmaktadır.</p>
+<section id="grafik-4-bölgelere-göre-intihar-sayısı" class="level3">
+<h3 class="anchored" data-anchor-id="grafik-4-bölgelere-göre-intihar-sayısı">Grafik 4 : Bölgelere Göre İntihar Sayısı</h3>
+<p><img src="grafikler/combine.png" class="img-fluid quarto-figure quarto-figure-center" width="900"><br>
+Grafikte 2013-2022 yılları arasında Türkiye’nin farklı bölgelerindeki intihar sayılarının dağılımı Box plot (kutu grafiği) kullanılarak gösterilmiş olup her bölgedeki intihar sayılarının merkezi eğilim ve değişkenlikleri görselleştirilmiştir. Grafik incelendiğinde:</p>
 <ul>
-<li><p>2013-2018 Dönemi: 2013-2018 yılları arasında erkek intihar sayıları genellikle 2000 civarındayken, kadın intihar sayıları 700-1000 arasında değişmektedir. Bu dönemde büyük dalgalanmalar gözlemlenmemektedir.</p></li>
-<li><p>2019 Yılı: 2019 yılında, özellikle erkek intiharlarında belirgin bir artış gözlemlenmektedir. Bu yıl, erkek intihar sayısı yaklaşık 2500’e yaklaşırken, kadın intihar sayısı ise yine 1000 civarındadır.</p></li>
-<li><p>2020-2021 Dönemi: Bu dönemde hem erkek hem de kadın intihar sayılarında ciddi bir artış gözlemlenmektedir. 2020 yılında erkek intihar sayısı 3000’in üzerine çıkarken, kadın intihar sayısı ise yaklaşık 1200’e yaklaşmıştır.</p></li>
-<li><p>2022 Yılı: 2021 yılına göre 2022 yılında her iki cinsiyet için de intihar sayılarında hafif bir azalma gözlemlenmektedir. Ancak erkek intihar sayıları hala 3000 civarında seyretmektedir.</p></li>
+<li><p>Grafik Türkiye’deki intihar vakalarının bölgesel dağılımını görsel olarak etkili bir şekilde sunmakta ve hangi bölgelerde daha fazla önlem alınması gerektiği konusunda fikir vermektedir.</p></li>
+<li><p>Box Plot’a göre yüksek bir medyan değeri, o bölgedeki intihar sayılarının diğer bölgelere göre daha yüksek olduğunu göstermektedir. Grafiğe göre en yüksek medyan değerine sahip bölge Ege bölgesi olup onu İstanbul ve Akdeniz Bölgeleri izlemektedir. Doğu Karadeniz bölgesi ise en düşük intihar sayısına sahip olan bölge olup onu Kuzeydoğu Anadolu izlemektedir.</p></li>
+<li><p>Box Plot’a göre geniş bir aralık (geniş kutu), verilerin değişkenlik gösterdiğini ve homojen dağılmadığını ifade etmekte, dar bir aralık ise verilerin daha tutarlı ve birbirine yakın olduğunu göstermektedir. Buna göre; Ege, İstanbul, Akdeniz, Batı Anadolu ve Doğu Marmara bölgeleri geniş bir dağılım göstermektedir. Diğer bölgelerde ise intihar sayıları daha düşük ve dağılım daha dar bir aralıkta yer almaktadır. Özellikle Kuzeydoğu Anadolu bölgesi en dar aralığa sahiptir.</p></li>
+<li><p>Kutunun dışında yer alan noktalar, aykırı değerleri göstermektedir. Bunlar, veri setindeki diğer değerlerden önemli ölçüde farklı olan verilerdir. Aykırı değerler Ege, İstanbul ve Güneydoğu Marmara bölgelerinde olup, bu durum, bazı yıllarda intihar sayılarının normal aralığın oldukça dışında olduğunu göstermektedir.</p></li>
+<li><p>Grafikte dikkate değer bir diğer nokta, intihar sayılarının bölgelere göre önemli ölçüde farklılık göstermesidir. Bu farklılıklar, ekonomik, sosyal, kültürel ve psikolojik faktörler gibi çeşitli etkenlere bağlı olabilir.</p></li>
+<li><p>Özellikle Ege ve İstanbul gibi büyük şehirlerin bulunduğu bölgelerdeki yüksek intihar sayıları ana nedenin yüksek nüfus olmasıyla birlikte, şehirleşme, son yıllarda artan ekonomik zorluklar, stres faktörleri ve yaşam koşulları gibi değişkenlerle de ilişkilendirilebilir.</p></li>
+<li><p>Doğu Karadeniz ve Kuzeydoğu Anadolu bölgelerinin en düşük intihar sayılarına sahip olmasında ise nüfusun az olması ana etken olmakla birlikte daha az şehirleşmenin, daha güçlü topluluk bağlarının veya diğer bölgelere göre farklı yaşam koşullarının etkili olabileceğini düşünülmektedir.</p></li>
 </ul>
-<p>Erkeklerin intihar oranları kadınlardan belirgin bir şekilde daha yüksektir. Erkeklerin daha yüksek intihar oranları, ekonomik baskılar, işsizlik ve sosyal rollerden kaynaklandığı düşünülmektedir. Erkeklerin aile geçiminden sorumlu olma ve başarısızlık korkusu gibi faktörler, intihar riskini artırabilmektedir. Mental sağlık hizmetlerine erişimde yaşanan zorluklar, hem erkek hem de kadınlar için intihar riskini artırsa da erkeklerin yardım arayışında daha az bulunmaları, intihar oranlarının daha yüksek olmasına neden olabilmektedir.</p>
-<p>COVID-19 pandemisi, her iki cinsiyet için de stres ve kaygı seviyelerini artırmış olabilmektedir. Özellikle 2020-2021 yıllarında intihar oranlarının artmasında pandemi etkisinin önemli bir rol oynadığı düşünülmektedir.</p>
 </section>
-<section id="grafik-3-intihar-sayılarının-türkiye-nüfusuna-oranı" class="level3">
-<h3 class="anchored" data-anchor-id="grafik-3-intihar-sayılarının-türkiye-nüfusuna-oranı">Grafik 3 : İntihar Sayılarının Türkiye Nüfusuna Oranı</h3>
+<section id="grafik-5-bölgesel-intihar-sayılarının-bölge-nüfusuna-oranı" class="level3">
+<h3 class="anchored" data-anchor-id="grafik-5-bölgesel-intihar-sayılarının-bölge-nüfusuna-oranı">Grafik 5 : Bölgesel İntihar Sayılarının Bölge Nüfusuna Oranı</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="grafikler/nufus.png" class="img-fluid figure-img" width="900"></p>
+<p><img src="grafikler/nufus.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="900"></p>
 </figure>
 </div>
+<p>Grafikte, Türkiye’deki bölgelere göre yıllık intihar oranlarının 2013-2022 yılları arasındaki değişimleri gösterilmektedir. İntihar sayıları grafiğinden farklı olarak bu grafik intihar sayılarını o bölgenin nüfusuna oranlayarak yoğunluk üzerinden inceleme yapma şansı tanımakta, bu açıdan daha objektif çıkarımlar yapma fırsatı sunmaktadır. Her bir renk farklı bir bölgeyi temsil etmektedir. Grafik incelendiğinde;</p>
+<ul>
+<li><p>İntihar oranlarında yıllar içinde genel bir artış gözlemlenmektedir. Özellikle 2020-2022 yılları arasında birçok bölgedeki intihar yoğunluğunda belirgin bir artış görülmektedir. Bu durum, Covid-19 pandemisinin psikolojik, ekonomik ve sosyal etkilerinin intihar oranlarına yansıması olarak yorumlanabilir.</p></li>
+<li><p>İstanbul’da intihar sayısının yüksek olmasına rağmen yoğunluk açısından diğer bölgelere göre daha düşük sonuçlar gösterdiği görülmekte, onu Doğu Karadeniz bölgesi izlemektedir. Ege bölgesinde ise hem yoğunluk hem de intihar sayısı yüksektir.</p></li>
+<li><p>Ege’deki yüksek intihar yoğunluğunun nedeninin ise ekonomik belirsizlikler ve özellikle turizme bağımlı pandeminin yarattığı ekonomik krizler, iş kayıpları ve finansal stres kaynaklı olduğu düşünülmektedir.</p></li>
+<li><p>Ayrıca, büyük şehirlerde artan stres ve yalnızlık duyguları da etkili olmaktadır. Batı Marmara gibi endüstriyel ve tarımsal faaliyetlerin yoğun olduğu bölgelerde ise ekonomik dalgalanmalar ve işsizlik, intihar oranlarını artırabilmektedir.</p></li>
+<li><p>Bazı bölgelerde, yıllar içinde dalgalanmalar görülmektedir. Örneğin, Güneydoğu Anadolu bölgesi 2015 yılında düşük bir orana sahipken 2021’de zirve yapmıştır. 2021’deki bu zirve, bölgede yaşanan ekonomik zorluklar, işsizlik, pandeminin getirdiği sosyal ve politik istikrarsızlık gibi faktörlerle açıklanabilmektedir.</p></li>
+<li><p>Güneydoğu Anadolu ve Doğu Karadeniz bölgeleri gibi nüfusun az olduğu bölgelerde geleneksel aile yapısı ve toplumsal bağların güçlü olması, doğal çevrenin stres seviyelerini düşürme üzerindeki olumlu etkisi gibi nedenlerden ötürü intihar yoğunluğunun düşük olduğu sonucuna varılabilmektedir.</p></li>
+<li><p>Bölgelerdeki artış ve düşüşler, sosyal, ekonomik, kültürel ve çevresel faktörlerin karmaşık bir etkileşimi sonucu ortaya çıkmakta olup bölgelerin kendine özgü dinamikleri dikkate alınarak detaylı bir analiz yapılması ve bu analizler doğrultusunda eyleme geçilmesi intihar sayılarının artışını önlemede hayati önem taşımaktadır.</p></li>
+</ul>
 
 
 </section>
@@ -277,6 +322,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -345,13 +417,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -430,10 +504,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -443,8 +534,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -456,7 +556,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -500,6 +723,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -525,6 +749,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -590,12 +840,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">EMU Hacettepe MUY665 - 2023-2024 Bahar</div>
+    <div class="nav-footer-center">
+<p>EMU Hacettepe MUY665 - 2023-2024 Bahar</p>
+</div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 
